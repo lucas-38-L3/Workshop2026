@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le carrousel de 1662 : devises et emblèmes</title>
+  <style>
+    :root { 
+      --papier:#eceff2; 
+      --encre:#1c2331; 
+      --filet:#c5ccd6; 
+      --or:#a98334;
+      --serif:"EB Garamond", Garamond, "Hoefler Text", Georgia, serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --papier:#151a24; 
+        --encre:#e8e6df; 
+        --filet:#333c4d; 
+      }
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; 
+      min-height:100vh; 
+      display:flex; 
+      flex-direction:column;
+      background:var(--papier); color:var(--encre); font:1.1rem/1.55 var(--serif); 
+    }
+
+    main { flex:1; 
+      width:100%; 
+      max-width:46rem; 
+      margin:0 auto; 
+      padding:3rem 1.5rem 2rem; 
+    }
+    h1 { 
+      font-size:2.4rem; 
+      font-weight:500; 
+      line-height:1.15; 
+      margin:0 0 .3rem;
+    }
+    .sous-titre { 
+      margin:0 0 2rem; 
+      opacity:.8; 
+    }
+    p { 
+      margin:0 0 1rem;
+      text-align: justify; 
+    }
+    .acces { 
+      display:inline-block; 
+      margin-top:1rem; 
+      padding:.7rem 1.4rem; 
+      font-size:1.1rem;
+      color:var(--papier); background:var(--encre); text-decoration:none; border-radius:2px; 
+    }
+    .acces:focus-visible { 
+      outline:3px solid var(--or); outline-offset:3px; 
+    }
+
+    /* Bandeau d'images défilant */
+    .bandeau { 
+      overflow:hidden; 
+      padding:2.5rem 0; 
+    }
+    .piste { 
+      display:flex; 
+      width:max-content; 
+      animation:defile var(--duree, 150s) linear infinite; 
+    }
+    .piste:has(img:hover) { 
+      animation-play-state:paused; 
+    }
+    
+    .piste img { 
+      height:150px; 
+      width:auto; 
+      margin-right:1rem; 
+      display:block;
+      position:relative; 
+      transition:transform .25s ease; 
+    }
+    .piste img:hover { 
+      transform:scale(1.60); 
+      z-index:1; 
+    }
+    @keyframes defile { to { transform:translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) {
+      .bandeau { overflow-x:auto; }
+      .piste { animation:none; }
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Le carrousel de 1662 : devises et emblèmes</h1>
+    <p class="sous-titre">À partir des 
+      <i>Courses de testes et de bague faites par le Roy et par les princes et seigneurs de sa cour en l'année M.DC.LXII</i> de Charles Perrault (1670), Bibliothèque du Musée Condé. II-D-028</p>
+
+    <p>La publication de ce recueil de gravures est fondamentalement politique et artistique. 
+    Perrault tente ici d’illustrer et de relater les fêtes données par Louis XIV à Paris les 5 et 6 juin 1662. 
+    La raison officielle de ces fêtes était de célébrer la naissance du Dauphin, mais l’objectif souverain était 
+    d’asseoir symboliquement le pouvoir royal sur la noblesse et la population parisienne. Durant ces fêtes, le roi 
+    « semblait rayonner au milieu des autres cavaliers, chargés d’incarner dans cinq quadrilles plusieurs parties du monde » (
+      Jérôme de la Gorce "Les derniers carrousels à Versailles", dans Fêtes et Divertissements à la Cour, 2016, pp. 65-79 ; Brunet, II, col. 337.)</p>
+
+    <p>La carrousel nous vient d’Italie. Il apparaît au XVI<sup>e</sup> siècle et remplace les joutes françaises à la demande de Catherine de Médicis suite à la mort d’Henri II, son mari, 
+    contre Gabriel de Lorges, comte de Montgommery. Le carrousel est un spectacle équestre et les 5 et 6 juin Louis XIV y rayonne, il devient une figure cosmique autour de laquelle 
+    gravitent les quadrilles, représentatives du monde sur lequel le roi asseoit sa puissance. </p>
+
+    <p>Chacun des membres des quadrilles possède son emblème. 
+    Tous y sont représentés dans l’ouvrage de Perrault. Dans le recueil, un emblème est composé du nom de la personne, 
+    d’une image (et sa description), d’une devise en latin (et sa traduction) et d’une explication de Perrault. </p>
+
+    <p>Nous proposons de les présenter sous forme de cartes interactives avec : au recto, l’image, la devise et le nom du cavalier et, au verso, la description qu’en fait Perrault. </p>
+
+
+    <a class="acces" href="cartes.html">Consulter les emblèmes</a>
+  </main>
+
+  <div class="bandeau" aria-hidden="true">
+    <div class="piste" id="piste"></div>
+  </div>
+
+  <script>
+    const DOSSIER    = "img/"; 
+    const EXTENSION  = ".png";
+    const QUADRILLES = 5;                 
+    const PAR_QUADRILLE = 11;             
+    const SECONDES_PAR_IMAGE = 2;         
+
+    const piste = document.getElementById("piste");
+    const deux = n => String(n).padStart(2, "0");
+    const liste = [];
+    for (let q = 1; q <= QUADRILLES; q++)
+      for (let n = 1; n <= PAR_QUADRILLE; n++)
+        liste.push(DOSSIER +  deux(q) + deux(n) + EXTENSION);
+
+    // Les images sont ajoutées deux fois pour une boucle sans coupure
+    [...liste, ...liste].forEach(src => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = "";
+      img.loading = "lazy";
+      img.onerror = () => console.warn("Image introuvable :", src);
+      piste.appendChild(img);
+    });
+
+    piste.style.setProperty("--duree", liste.length * SECONDES_PAR_IMAGE + "s");
+  </script>
+</body>
+</html>

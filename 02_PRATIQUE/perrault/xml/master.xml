@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Courses de testes et de bague (1662) : devises et emblèmes</title>
+        <author>Charles Perrault</author>
+      </titleStmt>
+      <publicationStmt><p>WORKSHOP_2026</p></publicationStmt>
+      <sourceDesc><bibl>Paris, Imprimerie royale, 1670</bibl></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <xi:include href="quadrilles/Q1.xml"/>
+      <xi:include href="quadrilles/Q2.xml"/>
+      <xi:include href="quadrilles/Q3.xml"/>
+      <xi:include href="quadrilles/Q4.xml"/>
+      <xi:include href="quadrilles/Q5.xml"/>
+    </body>
+  </text>
+</TEI>

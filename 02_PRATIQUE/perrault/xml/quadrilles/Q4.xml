@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Courses de testes et de bague (1662) : devises et emblèmes</title>
+                <author>Charles Perrault</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>WORKSHOP_2026</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Paris, Imprimerie royale, 1670</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--Pour cette quadrille les images sont : 
+            0401 : Danguien
+            0402 : Canaples
+            0403 :  Plessis
+            0404 : Genlis
+            0405 : Guitaut
+            0406 : Monpesat
+            0407 : Nevers
+            0408 : Roye
+            0409 : D'Humieres
+            0410 : Sully
+            0411 : D'Oüailly
+            -->
+            
+            <!-- AIDE STRUCTURE VIDE, 
+                faire des couper/coller du texte et remplacer les info (xml:id / url) : 
+            
+                <div type="personnage" xml:id="p-REMPLACER">
+                            
+                    <head> REMPLACER </head>
+                    
+                    <figure xml:id="img-REMPLACER">
+                        <graphic url="img/REMPLACER.png"/>
+                        <figDesc> REMPLACER </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> REMPLACER </q>
+                    <p type="description">
+                        REMPLACER
+                    </p>
+                </div>
+            -->
+            <div type="quadrille" xml:id="q-indiens" n="#b5782a">
+                <head>Indiens</head>
+<!-- Ne pas rajouter de div pour la quadrille ! Seulement des div de type "personnage" pour les personnages -->
+                
+                <div type="personnage" xml:id="p-anguien">
+                    
+                    <head> DUC D’ANGUIEN </head>
+                    
+                        <figure xml:id="img-anguien">
+                        <graphic url="img/0401.png"/>
+                            <figDesc> Une grande Etoille </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> MAGNO DE LUMINE LUMEN </q>
+                    <p type="description">
+                        Le Soleil étant l'unique source de toutes les Lumieres, les plus grandes Etoilles ont cét avantage d’en recevoir 
+                        une plus abondante effusion que les autres, et c’est par cette comparaison que le Prince qui prend
+                        pour sa Devise l’Etoille du poinct du jour, la plus brillante de toutes, se glorifie de recevoir du Roy, plus
+                        de grace, et plus de faveur, que tous les autres Astres qui l’environnent.
+                        
+                    </p>
+                </div>
+
+            
+            
+            
+            
+            
+            MARQVIS DE CANAPLES
+            Un But entouré de plusieurs fléches, et une dedans
+            NECNULLA, NEC OMNIS
+            Cette Devise peut signifier que comme
+            toutes les beautez n’ont pas touché le cœur
+            de ce Chevalier, il ne peut pas dire aussi
+            qu’aucune ne l’ait frappé: Ou bien elle peut
+            donner à entendre, que si toutes ses pretensions 
+            n’ont reüssi, au moins quelques-unes
+            ont eû une issuë favorable.
+            
+            <!-- Dans l'ID mettre xml:id="p-plessis2" car plessis est déjà présent dans Q2 si on laisse le même id,
+                il y a conflit à la transformation-->
+            COMTE DU PLESSIS
+            Une Fléche
+            MARTE LO MANDI, O AMORE
+            La Flêche étant une arme qui sert également 
+            à Mars ou à l’Amour, elle represente 
+            un Chevalier également Vaillant et
+            Amoureux, et qui est prest d’affronter tous
+            les hazards, où l’une et l’autre de ces Divinitez 
+            l’appelleront.
+            
+            
+            MARQUIS DE GENLIS
+            Un Trophée sur une lance composé d’armes,
+            de masques, de flambeaux, et autres 
+            instrumens de galanteries
+            IUNCTA DECENT
+            Comme le mélange de ces divers instrumens 
+            dont l'usage est si different, compose
+            un trophée agreable à la veüe. Il en est de
+            même d’un Chevalier, qui sçait joindre
+            aux exercices penibles de la guerre, les jeux
+            agreables de la Paix.
+            
+            
+            COMTE DE GUITAUT
+            Un Girasol
+            NOTA FIDES
+            Soit que le Soleil represente la beauté
+            dont ce Chevalier est Amoureux, soit qu’il
+            signifie son Prince, il déclare par cette Devise,
+            que sa fidelité pour son Maître ou
+            pour sa Maîtresse, n’est pas moins constante,
+            ny moins éprouvée que celle du Girasol,
+            pour le bel Astre qu’il suit toûjours.
+            
+            
+            
+            MARQVIS DE MONPESAT
+            Un Trophée d’Armes du Carrousel
+            NON FICTI PRAEMIA MARTIS
+            Le Chevalier qui porte cette Devise,
+            veut donner à entendre que quelque glorieux 
+            qu’il soit, de remporter le prix dans
+            des combats de Barriere, tels que ceux du
+            Carrousel, son ame neantmoins ne peut
+            étre pleinement satisfaite, qu’en remportant 
+            le prix d’un combat veritable.
+            
+            
+            DUC DE NEVERS
+            Un Phenix exposé au Soleil
+            UNUS CUNCTA MIHI
+            Le Soleil est le Pere, la nourriture et
+            la joye du Phenix, et ce Chevalier qui le
+            prend pour sa Devise, veut témoigner par
+            ce symbole, non seulement qu’il tient tout
+            de sa Majesté: mais aussi qu’elle luy tient
+            lieu de toutes choses.
+            
+            COMTE DE ROYE
+            Un Phenix sur un bucher
+            CAUSA BLACET
+            Quelque affreuse que soit la mort, le
+            sujet en est quelquefois si beau, qu’elle
+            peut étre souhaitable: Et comme le Phenix 
+            s’y resout sans peine, parce que le Soleil 
+            en est la cause, ce Chevalier proteste
+            qu’il la perdroit avec joye, si elle étoit employée 
+            pour le service de son Maître.
+            
+
+            MARQUIS D’HUMIERES
+            Plusieurs differentes Couronnes
+            NON QUIERO MENOS
+            Une seule de ces Couronnes pourroit
+            satisfaire l’ambition d’un courage mediocre:
+            mais une ame heroïque aspire à toutes,
+            et ce Chavalier témoigne qu’il n’y en
+            a pas une qu’il ne veüille obtenir.
+            
+          
+            DUC DE SULLY
+            Un Miroir ardent
+            ARDEO UBT ASPICIOR
+            Comme l’ardeur du miroir augmente à
+            proportion de la lumiere qu’il reçoit du
+            Soleil , ainsi ce Chevalier assure que son
+            courage et son amour redoublent, selon
+            qu’il est regardé de son Prince, ou de sa
+            Maîtresse.
+            
+            
+            MARQUIS D'OVAILLY
+            Un Rozier et un Soleil
+            RESPICE, FLOREBO
+            Comme le Rozier dont les boutons sont
+            prests d’éclore, semble dire au Soleil qu’il
+            le regarde, et qu’aussi tost il fleurira: ainsi
+            ce Chevalier qui conçoit de grands desseins 
+            pour le service de son Prince, ne demande 
+            que d’en étre consideré, pour faire
+            de grandes actions qui le couvriront de
+            gloire.
+            </div>
+        </body>
+    </text>
+</TEI>
