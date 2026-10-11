@@ -5,7 +5,9 @@ Ce workshop est à destination des M1, M2 et enseignants curieux de découvrir l
 Il repose sur un format de trois heures visant à : 
 
 1. Comprendre les bases d'XML, XPath et HTML
-1. Encoder les _Courses de testes et de bague faites par le Roy et par les princes et seigneurs de sa cour en l'année 1662_ de Charles Perrault
+1. Encoder les _Courses de testes et de bague faites par le Roy et par les princes et seigneurs de sa cour en l'année 1662_ de Charles Perrault 
+ainsi que _La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, roy de la grand Bretaigne, avec la description de leurs armoiries _
+paru chez Benoist Rigaud en 1590.
 1. Comprendre la visualisation web des données ainsi obtenues
 
 # Récupérer les documents de travail
@@ -29,50 +31,93 @@ Nous n'utiliserons toutefois pas Git pour collaborer, il y aura donc un second t
     1. L'envoyer par mail à `lucas.favier@univ-lyon3.fr`  
 1. Le langage XML n'est pas inné ! Si vous avez la moindre question **n'hésitez pas à la poser !**
 1. L'arborescence du répertoire dans lequel nous travaillons est la suivante
-    1. Vous allez modifier les fichiers Q1/Q2/Q3/Q4 et Q5. Nous tranformerons ensuite les fichiers XML à l'aide d'une fiche XSL qui 
+    1. Vous allez modifier les fichiers Q1/Q2/Q3/Q4 et Q5 (GRP 1)ainsi que A1/A2/A3/A4/A5/A6/A7/A8 et A9(GRP 2). Nous tranformerons ensuite les fichiers XML à l'aide d'une fiche XSL qui 
     génèrera un fichier `cartes.html` dans `public` à partir du fichier `master.xml`.
 ```
 .
-└── perrault
+├── perrault
+│   ├── public
+│   │   ├── img
+│   │   │   ├── 0101.png
+│   │   │   ├── 0102.png
+│   │   │   ├── 0103.png
+│   │   │   ├── 0104.png
+│   │   │   ├── 0105.png
+│   │   │   ├── 0106.png
+│   │   │   ├── 0107.png
+│   │   │   ├── 0108.png
+│   │   │   ├── 0109.png
+│   │   │   ├── 0110.png
+│   │   │   ├── 0111.png
+│[...]
+│   │   │   ├── 0501.png
+│   │   │   ├── 0502.png
+│   │   │   ├── 0503.png
+│   │   │   ├── 0504.png
+│   │   │   ├── 0505.png
+│   │   │   ├── 0506.png
+│   │   │   ├── 0507.png
+│   │   │   ├── 0508.png
+│   │   │   ├── 0509.png
+│   │   │   ├── 0510.png
+│   │   │   └── 0511.png
+│   │   ├── index.html
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── xml
+│   │   ├── master.xml
+│   │   └── quadrilles
+│   │       ├── Q1.xml
+│   │       ├── Q2.xml
+│   │       ├── Q3.xml
+│   │       ├── Q4.xml
+│   │       └── Q5.xml
+│   └── xsl
+│       └── perrault2.xsl
+└── rigaud
     ├── public
     │   ├── img
-    │   │   ├── 0101.png
-    │   │   ├── 0102.png
-    │   │   ├── 0103.png
-    │   │   ├── 0104.png
-    │   │   ├── 0105.png
-    │   │   ├── 0106.png
-    │   │   ├── 0107.png
-    │   │   ├── 0108.png
-    │   │   ├── 0109.png
-    │   │   ├── 0110.png
-    │   │   ├── 0111.png
- [...]
-    │   │   ├── 0501.png
-    │   │   ├── 0502.png
-    │   │   ├── 0503.png
-    │   │   ├── 0504.png
-    │   │   ├── 0505.png
-    │   │   ├── 0506.png
-    │   │   ├── 0507.png
-    │   │   ├── 0508.png
-    │   │   ├── 0509.png
-    │   │   ├── 0510.png
-    │   │   └── 0511.png
+    │   │   ├── A1.png
+    │   │   ├── A10.png
+    │   │   ├── A100.png
+    │   │   ├── A101.png
+    │   │   ├── A102.png
+    │   │   ├── A103.png
+    │   │   ├── A104.png
+    │   │   ├── A105.png
+    │   │   ├── A106.png
+    │   │   ├── A107.png
+    │   │   ├── A108.png
+    │   │   ├── A109.png
+    │   │   ├── A11.png
+[...]
+    │   │   ├── A90.png
+    │   │   ├── A91.png
+    │   │   ├── A92.png
+    │   │   ├── A93.png
+    │   │   ├── A94.png
+    │   │   ├── A95.png
+    │   │   ├── A96.png
+    │   │   ├── A97.png
+    │   │   ├── A98.png
+    │   │   ├── A99.png
+    │   │   └── inverser.py
     │   ├── index.html
     │   ├── script.js
     │   └── style.css
     ├── xml
-    │   ├── master.xml
-    │   └── quadrilles
-    │       ├── Q1.xml
-    │       ├── Q2.xml
-    │       ├── Q3.xml
-    │       ├── Q4.xml
-    │       └── Q5.xml
+    │   ├── armoiries
+    │   │   ├── A1.xml
+    │   │   ├── A2.xml
+    │   │   ├── A3.xml
+    │   │   ├── A4.xml
+    │   │   ├── A5.xml
+    │   │   ├── A6.xml
+    │   │   ├── A7.xml
+    │   │   ├── A8.xml
+    │   │   └── A9.xml
+    │   └── master.xml
     └── xsl
-        ├── perrault.xsl
-        └── perrault2.xsl
+        └── personnages-alpha.xsl
 ```
-
 
