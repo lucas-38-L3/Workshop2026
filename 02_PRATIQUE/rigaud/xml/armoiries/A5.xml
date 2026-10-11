@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            
+            -->
+            <div type="personnage" xml:id="p-andelisrouxserre">
+                <head> Andelis le Roux Serré </head>
+                
+                <figure xml:id="img-andelisrouxserre">
+                    <graphic url="img/A81.png"/> 
+                </figure>
+                
+                <p type="description"> 
+                    Andelis le Roux Serré portoit
+                    d’argent à deux aisles de sable. 
+                    Cestuy cy fut preux et hardy en
+                    toutes ses affaires, et fut l’un de la
+                    table ronde. </p>
+            </div>
+
+--------------- Element 82 ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A82.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Bruyant des Isles
+
+Bruyant des Isles portoit de sable 
+à un chien courant armé de
+gueulles. Il estoit de noble maintien,
+aymant tout honneur et
+prouësse, et cela assez bien demonstre 
+son escu au chien courant.
+
+--------------- Element 83  ---------------
+Ozenal d’Effrangee
+
+Ozenal l’Effrangée portoit d’azur 
+à un Leopard lyonné d’argent
+armé et langue de gueulles. Il estoit
+compagnon de la table ronde, lequel 
+fit choses dignes de memoire,
+dont il fut fort renommé.
+
+--------------- Element 84 ---------------
+Le chevalier d’Ester
+
+Le chevalier d’ester portoit de
+gueulles à un Cerf d’or ongle et langue
+de sable. Il fut digne d’estre
+nombré auec autres de la table
+ronde, preux et treshardy conquerant.
+
+--------------- Element 85  ---------------
+Le varlet de Gluyne
+
+Le varlet de Gluyne portoit de
+Sable à un bort endentellé d’or et
+d’argent. On croit que cestuy-cy estoit 
+de serville condition, et pourtant 
+fut-il appellé varlet, ou autrement 
+portoit il ce nom, par l’appellation 
+de ceux de ses ancestres.
+
+--------------- Element 86  ---------------
+Heroys le Joyeux
+
+Heroys le Joyeux portoit d’arent 
+à trois croix fichees de sable,
+Non sans cause fut-il surnommé le
+joyeux, car il estoit plaisant et coutois,
+et bien consomma toutes se
+amplettes.
+
+--------------- Element 87 ---------------
+Fergus du blanc lieu
+
+Fergus du blanc lieu portoit pale 
+contre palle d’argent et de gueules.
+Ce surnom ne luy fut donné
+sans cause et occasion, et pourtant
+chacun en estime ce qu’il en poura inventer.
+
+--------------- Element 88  ---------------
+Lot le coureur
+
+Lot le coureur portoit d’argent
+à un corbeau de Sable membré d’azur.
+Il estoit beau coureur en tous
+faicts d’armes, mesmement à la lance,
+et est son escusson bien significatif 
+d’aucune noble chose.
+
+--------------- Element 89 ---------------
+Meliadus de l’Espinoye
+
+Meliadus de l’Espinoye portoit
+l’or à trois Croix floronnees de
+gueulles. Cestuy est dict l’Espinoye 
+à la difference du Roy Meliadus,
+et sont ses armes moult fort
+nobles et de grand approbation en
+foy Chrestienne.
+
+--------------- Element 90 ---------------
+Meliadus au noir œil
+
+Meliadus au noir œil portoit
+d’argent à trois chevrons de sable
+Cestuy est un de ceux de la table
+ronde nommé Meliadus au noir œil
+pour quelque tache qu’il y avoit.
+
+--------------- Element 91 ---------------
+Ayglius des Vaux
+
+Ayglius des Vaux portoit de
+gueulles à une fesse d’or crenelée
+de sable. Il fut fort estimé et de
+preuse conqueste comme ses compagnons, 
+qui tous firent merveilles
+et choses de moult grand renom.
+
+--------------- Element 92  ---------------
+Jambourg du Chastel
+
+Jambourg du Chastel portoit
+de pourpre à un Lyon leopard d’argent 
+armé d’azur. Cestuy-cy ne forligna 
+pas en aucune condition d’honneur,
+ains fut vray imitateur de toute 
+noblesse, et des armoiries qu’il
+portoit.
+
+--------------- Element 93 ---------------
+Messire Clamorat
+
+Messire Clamorat portoit de
+pourpre à un Lyon leopard d’or semé 
+de croisettes de mesme. Ceux
+qui ont veu maints livres et Croniques 
+peuvent assez juger de cestuy-cy, 
+et quelles choses il peut faire.
+
+--------------- Element 94  ---------------
+Surados des sept Fontaines
+
+Surados des sept Fontaines portoit 
+d’or et d’azur semé de larmes
+d’argent. Il fut surnommé des sept
+Fontaines à raison qu’il fit aucunes
+prouësses en sept lieux entre quelques 
+Fontaines.
+
+--------------- Element 95 ---------------
+Le varlet au Cercle
+
+Le varlet au Cercle portoit de
+pourpre à un Cercle d’or lyé de sable.
+Cestuy fut ainsi nommé à cause 
+du grand Cercle d’or qu’il avoit
+en son escusson, et est ceste devise
+assez excellente.
+
+--------------- Element 96  ---------------
+Kaedins de Lonezerp
+
+Kaedins de Lonezerp portoit
+de gueulles à trois macles d’or. Il
+estoit des signez et arengez à la table 
+ronde, et fit son devoir tout
+ainsi que les autres.
+
+--------------- Element 97  ---------------
+Lucan le bouteiller
+
+Lucan le bouteiller portoit en
+ses armes d’or à un Loup de gueulles,
+armé de sable. Plusieurs ont
+prins la devise du Loup en leur armoiries,
+et non sans cause, comme
+cestuy-cy.
+
+--------------- Element 98  ---------------
+Le Roy Galganeis de Norgalles
+
+Le Roy Galganeis de Norgalles 
+portoit de pourpre à un Lyon
+d’argent armé et langue de synople.
+Cestuy-cy estoit de merveilleux 
+courage, et bien le monstra en
+tous ses affaires.
+
+--------------- Element 99  ---------------
+Le Roy Aguysant d’Escosse
+
+Le Roy Aguysant d’Escosse portoit 
+d’argent à un Lyon de gueulles,
+armé de sable une cordeliere à
+l’entour. Ce fut l’un des illustrateurs 
+de la table ronde, qui fit choses 
+bien approuvees en tous faicts
+de noblesse.
+
+--------------- Element 100  ---------------
+Brumer de la Fontaine
+
+Brumer de la Fontaine portoit
+escartelé d’or et de sable à une fontaine 
+d’argent sur le tout. Cestuy
+jamais ne s’espargna en la conqueste 
+de toutes belles choses, et mes
+mement es faicts d’armes.
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+          roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+        <editor>Benoist Rigaud</editor>
+      </titleStmt>
+      <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+      <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <xi:include href="armoiries/A1.xml"/>
+      <xi:include href="armoiries/A2.xml"/>
+      <xi:include href="armoiries/A3.xml"/>
+      <xi:include href="armoiries/A4.xml"/>
+      <xi:include href="armoiries/A5.xml"/>
+      <xi:include href="armoiries/A6.xml"/>
+      <xi:include href="armoiries/A7.xml"/>
+      <xi:include href="armoiries/A8.xml"/>
+      <xi:include href="armoiries/A9.xml"/>
+    </body>
+  </text>
+</TEI>

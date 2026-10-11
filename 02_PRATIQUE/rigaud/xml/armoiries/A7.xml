@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            -->
+            
+            <div type="personnage" xml:id="p-randouynpersien">
+                <head> Randouyn le Persien </head>
+                
+                <figure xml:id="img-randouynpersien">
+                    <graphic url="img/A121.png"/> 
+                </figure>
+                
+                <p type="description"> Randouyn le Persien portoit de
+                    sable à une chapelle d’argent. Bien
+                    peut estre qu’il estoit de Perse, dont
+                    il portoit le nom, ou autrement surnommé
+                    à plaisir, ou pour autre cause.
+                    Ces armes semblent estre assez
+                    nobles. </p>
+            </div>
+
+
+--------------- Element 122  ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A122.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Froyadus le Gay
+
+Froyadus le Gay portoit une
+poincte de gueulles le maistre d’or.
+Cestuy-cy estoit de la bande des
+autres preux de la table ronde, digne
+de grand bruict et longue memoire,
+et si estoit joyeux ce semble.
+
+--------------- Element 123  ---------------
+Rousselin de l’autre monde
+
+Rousselin de l’autre monde portoit 
+d’or à un homme sauvage de
+sable embastonné de gueulles. Il
+estoit vaillant champion aux armes
+et de grand diligence et curiosité,
+et fut nommé de l’autre monde à
+raison qu’il estoit merveilleux de
+faicts et de gestes.
+
+--------------- Element 124  ---------------
+Courrant de Roche dure
+
+Courrant de Roche dure portoit 
+de sable à trois connils d’argent 
+onglez de gueulles. Il fut
+preux et hardy, et desiroit souvent
+aller à la chasse aux connils et aux
+lievres.
+
+--------------- Element 125  ---------------
+Armond au verd Serpent
+
+Armon au verd serpent portoit
+d’or à un Griffon de sinople membré 
+et armé d’argent. Il fut de la table 
+ronde grand conquerant comme 
+les autres, songneux et curieux
+en ses affaires.
+
+--------------- Element 126  ---------------
+Ferrand du Tertre
+
+Ferrand du Tertre portoit de
+gueulles à un Ours d’or armé de sable. 
+Il fut imitateur de toute noblesse,
+amyable, doux et courtoys,
+et croit-on qu’il portoit l’Ours en
+ses armes par succession d’armoirie
+de ses parens.
+
+--------------- Element 127  ---------------
+Thor le fils d’Arez
+
+Thor le fils d’Arez portoit d’or
+semé de croix de sable. Il fut moult
+vaillant en tous ses faicts, et desiroit 
+fort l’augmentation de tout
+honneur et reverence.
+
+--------------- Element 128  ---------------
+Jupin des Croix
+
+Jupin des Croix portoit en ses
+armes d’azur semé de croissans
+d’or. Ces croissans d’or assez signifient 
+qu’il croissoit en vertu et magnificence,
+et si estoit de moult belle 
+representation.
+
+--------------- Element 129  ---------------
+Ydeux le fort tyrant
+
+Ydeux le fort tyrant en ses armes 
+portoit d’argent à une chimere 
+de diverses couleurs. Il sçavoit
+tresbien son maintien belliqueux,
+et estoit hardy en tous nobles
+faicts d’armes.
+
+--------------- Element 130  ---------------
+Bolinian du Bois
+
+Bolinian du boys en ses armes
+portoit d’argent à un tangier de
+gueulles, armé de sable. Il fut aussi
+de celle table ronde, pour l’honneur
+de laquelle tant de preux et hardis
+Chevaliers se mettoyent en peine
+et labeur.
+
+--------------- Element 131  ---------------
+Le Roy Claudas
+
+Le Roy Claudas portoit d’azur
+à un pin d’or. Il fut fort renommé,
+et plusieurs encore le desirent pour
+la preuse execution qu’il faisoit en
+es belles conquestes.
+
+--------------- Element 132  ---------------
+Le bon Chevalier sans paour
+
+Le bon Chevalier sans paour
+portoit d’argent. On peut bien
+prendre son surnom pour significateur 
+de grande seureté et hardiesse,
+car jamais n’eut paour ce bon Chevalier 
+en toutes ses conquestes et
+beaux faicts.
+
+--------------- Element 133  ---------------
+Brouadas l’Espaignol
+
+Brouadas l’Espaignol portoit
+de sable à une escrevice d’or: ce nom
+semble à plusieurs moult fort espouventable,
+et est ce me semble
+plus imposition du bruict qu’il faisoit 
+que d’autre chose.
+
+--------------- Element 134  ---------------
+Brehus sans pitié
+
+Brehus sans pitié portoit de sable
+à un serpent volant d’argent. Il fut
+nommé comme dient aucuns selon
+l'effect de la condition de son courage, 
+car il n’avoit pitié d’aucuns
+de ses ennemys ainsi que le serpent
+des autres bestes,
+
+--------------- Element 135  ---------------
+Malignain
+
+Malignain portoit d’azur a trois
+gants d’argent les doigts contremont.
+Il fut sommairement hardy
+et preux autant qu’il estoit possible,
+et se porta tresbien en tous ses
+affaires.
+
+--------------- Element 136  ---------------
+Le Chevalier de Scallot
+
+Le Chevalier de Scallot portoit
+de gueulles à une navire habillee
+de pourpre. Il fut surnommé de
+Scallot à cause du lieu dont il estoit,
+et fut l’un des preux de la table
+ronde.
+
+--------------- Element 137  ---------------
+Melias de l’Espine
+
+Melias de l’Espine portoit de
+sable à une fesse d’or en devise. Il
+estoit des plus avanturez es chemins
+et conquestes de la table
+ronde, preux et magnanime.
+
+--------------- Element 138  ---------------
+Agroyer le Fel
+
+Agroyer le Fel portoit à une
+cottice de sable de trois pieces.
+Agroyer le fel ou felon avoit son
+nom selon la condition de son cœur
+et courage, car il estoit moult felon 
+et cruel.
+
+--------------- Element 139  ---------------
+Patrides au cercle d’or
+
+Patrides au cercle d’or portoit
+de gueulles à un chef d’or, à
+Lyon de sable yssant sur le chef armé
+et langue de sinople. Cestuy
+semble avoir esté fort puissant et
+magnanime comme les autres des
+sus escrits.
+
+--------------- Element 140  ---------------
+Mandius le Noir
+
+Mandius le Noir portoit de
+gueulles à une seraine d’argent escaillee 
+de sable. Il fut semblablement 
+du nombre des preux et encouragé 
+en tous faicts et vassellage
+de trespreuse condition.
+            
+        </body>
+    </text>
+</TEI>

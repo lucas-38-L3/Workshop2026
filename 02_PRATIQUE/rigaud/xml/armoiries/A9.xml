@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            -->
+            <div type="personnage" xml:id="p-alibellogres">
+                <head> Alibel de Logres </head>
+                
+                <figure xml:id="img-alibellogres">
+                    <graphic url="img/A161.png"/> 
+                </figure>
+                
+                <p type="description"> Alibel de Logres portoit le premier
+                    de Lozenges et l’autre d’Hermines.
+                    Cestuy-cy ne fut pas sans
+                    grand bruict et renom, et acquist
+                    maintes choses en l’estat de toute
+                    prouësse. </p>
+            </div>
+
+
+            
+           
+            --------------- Element 162  ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A162.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+            Dalides de la riviere
+            
+            Dalides de la Riviere portoit
+            d’argent à deux Daulphins de sable,
+            adoussez langues de gueulles. Il fut
+            magnanime et fort encouragé, et
+            tant travailla qu’il fut l’un de la Table ronde.
+            
+            --------------- Element 163 ---------------
+            Arain du Pin
+            
+            Arain du Pin en ses armes portoit 
+            de sinople à trois pommes de
+            Pin. Je laisse la cause pour laquelle
+            il fut ainsi nommé, car ce n’est point
+            sans aucune raison.
+            
+            --------------- Element 164  ---------------
+            Arganor le Riche
+            
+            Arganor le Riche portoit de sable
+            à un Chevalier armé d’or à une
+            hache de Sinople au poin, emmanchee 
+            de gueulles, le bout d’or, et
+            son espee de mesme. Il estoit compagnon 
+            et participant de la table ronde.
+            
+            --------------- Element 165  ---------------
+            Melias le beau Chevalier
+            
+            Melias le beau Chevalier portoit 
+            fesse contre fesse d’argent et de
+            sinople. Il fut digne d’amplifier la
+            Table ronde et pour en estre participant 
+            et consors moult fort travailla a ce faire.
+            
+            --------------- Element 166  ---------------
+            Meliadus le blanc
+            
+            Meliadus le blanc portoit de sable 
+            à une croix parée d’or. Cestuy¬cy 
+            fut imitateur des autres appellez
+            Meliadus, combien qu’il y peut avoir
+            quelque difference entre leur
+            prouësse comme il y a entre leurs
+            surnoms.
+            
+            --------------- Element 167 ---------------
+            Malaquin le Gros
+            
+            Malaquin le Gros portoit de
+            pourpre à une bande, dessus trois
+            leonceaux de gueulles, armez de
+            langues d’or. Ces armoiries sont
+            d’assez ample pris et louange, dont
+            il est honoré et preferé à plusieurs
+            autres.
+            
+            --------------- Element 168 ---------------
+            Messire Palamedes
+            
+            Messire Palamedes portoit eschiquetté 
+            d’argent et de sable. Non
+            sans raison portoit-il le nom de Palamedes 
+            comme vray imitateur des
+            beaux faicts de Palamedes yssu des
+            plus preux des Troyens.
+            
+            --------------- Element 169  ---------------
+            Alexandre l’Orphelin
+            
+            Alexandre l’Orphelin portoit de
+            sinople à un Lyon d’argent. On ne
+            scet de vray si ce nom luy fut imposé 
+            à cause qu’il fut imitateur du
+            grand Alexandre, et s’il fut surnommé 
+            l’Orphelin a raison qu’il fut
+            sans pere et mere.
+            
+            --------------- Element 170 --------------- 
+            <!-- Pour cette section d'anonymes nous conseillons d'attribuer les xml:id 
+                suivants : "ano1" à "ano8"-->
+            ANONYME
+            
+            Le nom de cestuy qui portoit ses
+            armes nous est incogneu, ou à cause 
+            de la longue succession du temps
+            qu’il estoit en vie, ou paravanture
+            pour autant que les livres qui ont
+            esté escrits ont esté perdus, toutesfois 
+            il fut l’un de la table ronde.
+            
+            --------------- Element 171 ---------------
+            ANONYME
+            
+            Ces armoiries sont moult nobles 
+            car le Lyon tousjours ne peut
+            signer sinon grande force et magnanimité,
+            et pourtant celuy qui le
+            portoit est digne d’estre fort prisé
+            comme l’un de la Table ronde, combien 
+            que son nom ou surnom ne
+            soit icy apposé.
+            
+            --------------- Element 172 ---------------
+            ANONYME
+            
+            Le nom aussi et surnom de celuy 
+            qui ceste devise portoit a esté
+            omis pour quelque cause qui nous
+            est incogneue. Si estoit-il preux et
+            hardy, car autrement il n’eut pas
+            esté mis au cercle et rang de la Table 
+            ronde.
+            
+            --------------- Element 173  ---------------
+            ANONYME
+            
+            Ces armoiries sont aussi bien nobles 
+            et de grand effect et devise comme
+            d’aucun Chevalier errant qui
+            les portoit. Son nom ne nous apparoist 
+            en aucune maniere, toutesfois
+            il est bien facile à croire qu’il estoit
+            du tant exquis nombre des Chevaliers errans.
+            
+            --------------- Element 174  ---------------
+            ANONYME
+            
+            L’autheur de ces armoiries est
+            semblablement incogneu quant à
+            son nom et surnom, si sont telles armoiries 
+            fort nobles à qui bien les
+            sçait louer et blasonner, parquoy
+            chacun en estimera ce que bon luy
+            en semblera.
+            
+            --------------- Element 175 ---------------
+            ANONYME
+            
+            La devise aussi de cest escusson
+            est de noble et illustre maintien comme
+            chacun peut voir qui a frequenté 
+            l’usage d’ensuyvir les Blasons des
+            Seigneurs, mesmement ceux de la
+            Table ronde que les nobles preux
+            dessusdits ont tant eu en gloire et
+            honneur.
+            
+            --------------- Element 176  ---------------
+            ANONYME
+            
+            Cestes-cy sont en pareil cas dignes 
+            de louange et portent grand
+            blason, et si sont de quelque digne
+            signification et appareil d’honneur
+            et dignité combien que ne soit patent 
+            et escrit le nom de celuy qui
+            les a portees.
+            
+            --------------- Element 177  ---------------
+            ANONYME
+            
+            Ces dernieres armoiries sont aussi
+            à estimer, et peuvent denoter que celuy 
+            qui les portoit estoit fort et aspre 
+            combatant, et en tous combats
+            dangereux, et qu’il fut l’un des conquerants 
+            de ce grand nombre de la table 
+            ronde qui tant fut ennoblie et
+            embellie d’honneurs et prouësses.
+            
+        </body>
+    </text>
+</TEI>
