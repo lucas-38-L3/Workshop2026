@@ -6,7 +6,7 @@ Il repose sur un format de trois heures visant à :
 
 1. Comprendre les bases d'XML, XPath et HTML
 1. Encoder les _Courses de testes et de bague faites par le Roy et par les princes et seigneurs de sa cour en l'année 1662_ de Charles Perrault 
-ainsi que _La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, roy de la grand Bretaigne, avec la description de leurs armoiries _
+ainsi que *La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, roy de la grand Bretaigne, avec la description de leurs armoiries*
 paru chez Benoist Rigaud en 1590.
 1. Comprendre la visualisation web des données ainsi obtenues
 
