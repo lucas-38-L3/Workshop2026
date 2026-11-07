@@ -9,14 +9,15 @@ Il repose sur un format de trois heures visant à :
 ainsi que *La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, roy de la grand Bretaigne, avec la description de leurs armoiries*
 paru chez Benoist Rigaud en 1590.
 1. Comprendre la visualisation web des données ainsi obtenues
+1.  Comprendre l'importance d'XML dans l'analyse textuelle
 
 # Récupérer les documents de travail
 Pour suivre le workshop, il est nécessaire de télécharger l'ensemble du _repository_ en cliquant sur `code` en haut à droite puis sur
-`Download ZIP`. Ce fichier ZIP, nous vous conseillons de l'extraire dans un répertoire de travail dédié au workshop (intitulé par exemple "workshop2026") sur le bureau.
+`Download ZIP`. Ce fichier ZIP, nous vous conseillons de l'extraire dans un répertoire de travail dédié au workshop (intitulé par exemple "workshop") sur le bureau.
 
 Étant donné qu'il s'agit d'un format de découverte du numérique nous nous attachons à n'avoir aucun prérequis, en particulier Git pour le travail sur GitHub. 
 
-Si, toutefois, Git est installé sur votre machine, il suffit d'ouvrir le terminal(MacOs, Linux) / Invite de commande (Windows) dans votre répertoire de travail et d'entrer la commande suivante : 
+Si, toutefois, Git est installé sur votre machine, il suffit d'ouvrir le terminal (MacOs, Linux) / Invite de commande (Windows) dans votre répertoire de travail et d'entrer la commande suivante : 
 
 `git clone https://github.com/lucas-38-L3/Workshop2026.git`
 
