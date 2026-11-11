@@ -116,18 +116,26 @@
 
 
     <a class="acces" href="cartes.html">Consulter les emblèmes</a>
+    <a class="acces" href="fair.html">Consulter les principes FAIR, par Urfist Méditerrannée. (2019). DoRANum-Enjeux et bénéfices : les principes FAIR. DoRANum.</a>
+    
   </main>
+
+
+
+  
 
   <div class="bandeau" aria-hidden="true">
     <div class="piste" id="piste"></div>
   </div>
 
   <script>
-    const DOSSIER    = "img/"; 
+    const DOSSIER    = "img/";  // dossier des images
     const EXTENSION  = ".png";
-    const QUADRILLES = 5;                 
-    const PAR_QUADRILLE = 11;             
-    const SECONDES_PAR_IMAGE = 2;         
+    const QUADRILLES = 5;                 // 01 à 05
+    const PAR_QUADRILLE = 11;             // 01 à 11 dans chaque quadrille
+    const SECONDES_PAR_IMAGE = 2;         // plus grand = plus lent
+    // =====================
+    // Nommage attendu : QQNN.jpg (0101 à 0111, puis 0201 à 0211, etc.)
 
     const piste = document.getElementById("piste");
     const deux = n => String(n).padStart(2, "0");
