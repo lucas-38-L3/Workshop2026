@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Devise des armes des chevaliers de la Table Ronde</title>
+  <style>
+    :root { 
+      --papier:#eceff2; 
+      --encre:#1c2331; 
+      --filet:#c5ccd6; 
+      --or:#a98334;
+      --serif:"EB Garamond", Garamond, "Hoefler Text", Georgia, serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --papier:#151a24; 
+        --encre:#e8e6df; 
+        --filet:#333c4d; 
+      }
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; 
+      min-height:100vh; 
+      display:flex; 
+      flex-direction:column;
+      background:var(--papier); color:var(--encre); font:1.1rem/1.55 var(--serif); 
+    }
+
+    main { flex:1; 
+      width:100%; 
+      max-width:46rem; 
+      margin:0 auto; 
+      padding:3rem 1.5rem 2rem; 
+    }
+    h1 { 
+      font-size:2.4rem; 
+      font-weight:500; 
+      line-height:1.15; 
+      margin:0 0 .3rem;
+    }
+    .sous-titre { 
+      margin:0 0 2rem; 
+      opacity:.8; 
+    }
+    p { 
+      margin:0 0 1rem;
+      text-align: justify; 
+    }
+    .acces { 
+      display:inline-block; 
+      margin-top:1rem; 
+      padding:.7rem 1.4rem; 
+      font-size:1.1rem;
+      color:var(--papier); background:var(--encre); text-decoration:none; border-radius:2px; 
+    }
+    .acces:focus-visible { 
+      outline:3px solid var(--or); outline-offset:3px; 
+    }
+
+    .bandeau { overflow:hidden; border-top:1px solid var(--filet); padding:2.5rem 0; }
+.piste { display:flex; width:max-content; animation:defile var(--duree, 150s) linear infinite; }
+.bandeau:hover .piste { animation-play-state:paused; }
+.piste img { height:150px; width:auto; margin-right:1rem; display:block;
+             position:relative; transition:transform .25s ease; }
+.piste img:hover { transform:scale(1.3); z-index:1; }
+@keyframes defile { to { transform:translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .bandeau { overflow-x:auto; }
+  .piste { animation:none; }
+  .piste img { transition:none; }
+}
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Les chevaliers de la table ronde : armorial fictif</h1>
+    <p class="sous-titre">À partir de
+      <i>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, roy de la grand Bretaigne, avec la description de leurs armoiries</i>
+       publié chez Benoist Rigaud (1590)</p>
+       
+       
+    <p>Publié à Lyon chez Benoist Rigaud en 1590, La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, roy de la grand Bretaigne, avec la description de leurs armoiries est un armorial consacré aux compagnons du roi Arthur. Loin d’être un récit romanesque, l’ouvrage recense les noms des chevaliers et décrit leurs armes, leurs blasons et leurs devises, selon les règles de l’héraldique. Il prolonge ainsi une tradition d’armoriaux arthuriens née à la fin du Moyen Âge, qui attribue aux figures légendaires une identité visuelle et nobiliaire qui assure la cohésion entre tous ceux qui rédigent des légendes.</p>
+
+    <p>Le recueil transforme les héros de la matière de Bretagne en porteurs d’écus, de cimiers, de supports et de devises. Cette mise en ordre héraldique fait de la Table Ronde une communauté idéale, unie par le blason, la renommée et les valeurs chevaleresques. Les armoiries ne renvoient pas à des lignées historiques réelles, mais construisent une généalogie symbolique du monde arthurien, où chaque personnage devient reconnaissable par ses signes.</p>
+
+    <p>L’édition de Benoist Rigaud témoigne de la vitalité de la légende arthurienne à la Renaissance et du passage d’un savoir d’abord conservé dans les manuscrits à une diffusion imprimée. Elle intéresse particulièrement l’histoire du livre, l’étude de l’héraldique imaginaire et la réception des romans arthuriens : elle montre comment la littérature médiévale peut être réorganisée en répertoire de noms, d’images et de devises, destiné à célébrer la mémoire d’une chevalerie exemplaire.</p>
+    <p> Les cartes proposent de lier l'image de l'armoirie, au nom du chevalier qui la porte ainsi que le texte de présentation qui va avec. </p>
+
+
+    <a class="acces" href="cartes.html">Consulter les emblèmes</a>
+    <a class="acces" href="fair.html">Consulter les principes FAIR, par Urfist Méditerrannée. (2019). DoRANum-Enjeux et bénéfices : les principes FAIR. DoRANum.</a>
+    
+  </main>
+
+  <div class="bandeau" aria-hidden="true">
+    <div class="piste" id="piste"></div>
+  </div>
+
+  <script>
+// ===== À RÉGLER =====
+const DOSSIER   = "img/";
+const EXTENSION = ".png";
+// Nombre d'images par lettre : A1 à A12, B1 à B8, etc.
+const PAR_LETTRE = { A: 12, B: 8, C: 15 /* …compléter jusqu'à Z */ };
+const SECONDES_PAR_IMAGE = 3;   // plus grand = plus lent
+// =====================
+
+const piste = document.getElementById("piste");
+const liste = [];
+for (const [lettre, nombre] of Object.entries(PAR_LETTRE))
+  for (let n = 1; n <= nombre; n++)
+    liste.push(DOSSIER + lettre + n + EXTENSION);
+
+// Les images sont ajoutées deux fois pour une boucle sans coupure
+[...liste, ...liste].forEach(src => {
+  const img = document.createElement("img");
+  img.src = src;
+  img.alt = "";
+  img.loading = "lazy";
+  img.onerror = () => console.warn("Image introuvable :", src);
+  piste.appendChild(img);
+});
+piste.style.setProperty("--duree", liste.length * SECONDES_PAR_IMAGE + "s");
+  </script>
+</body>
+</html>
