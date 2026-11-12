@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Courses de testes et de bague (1662) : devises et emblèmes</title>
+                <author>Charles Perrault</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>WORKSHOP_2026</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Paris, Imprimerie royale, 1670</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--Pour cette quadrille les images sont : 
+            0301 : Condé
+            0302 : Sery
+            0303 : Soyecourt 
+            0304 : Sault
+            0305 : Bouillon
+            0306 : Charmasel
+            0307 : Gamache
+            0308 : Bethunes
+            0309 : Peguilin
+            0310 : Coaslin
+            0311 : Luxembourg
+            -->
+            
+            <!-- AIDE STRUCTURE VIDE, 
+                faire des couper/coller du texte et remplacer les info (xml:id / url) : 
+            
+                <div type="personnage" xml:id="p-REMPLACER">
+                            
+                    <head> REMPLACER </head>
+                    
+                    <figure xml:id="img-REMPLACER">
+                        <graphic url="img/REMPLACER.png"/>
+                        <figDesc> REMPLACER </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> REMPLACER </q>
+                    <p type="description">
+                        REMPLACER
+                    </p>
+                </div>
+            -->
+            <div type="quadrille" xml:id="q-turcs" n="#5b7f3a">
+                <head>Turcs</head>
+<!-- Ne pas rajouter de div pour la quadrille ! Seulement des div de type "personnage" pour les personnages -->
+                
+
+                <div type="personnage" xml:id="p-conde">
+                    
+                    <head> PRINCE DE CONDE </head>
+                    
+                    <figure xml:id="img-conde">
+                        <graphic url="img/0301.png"/>
+                        <figDesc> Un Croissant </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> CRESCIT UT ASPICITUR </q>
+                    <p type="description">
+                        Comme le Croissant augmente de plus en plus en lumiere selon qu’il est regardé du Soleil, ainsi le Prince
+                        qui le prend pour sa Devise, veut faire entendre que tenant du Roy toutes ses grandeurs, et tout son éclat,
+                        il reconnoit que sa gloire augmentera à proportion des regards favorables qu’il recevra de sa Majesté.
+                        
+                    </p>
+                </div>
+
+            
+            
+            
+            
+            COMTE DE SERY
+            Un Arbre chargé de fleurs
+            SPES MODO, MOX FRUCTUS
+            Les fleurs d’un arbre sont comme une
+            assurance des fruits qu’il doit donner: ce
+            qui marque tres-bien ce qu’on peut attendre
+            d’un jeune Chevalier, qui promet dans
+            peu les fruits d’une valeur consommée,
+            bien qu’il ne soit encore que dans la premiere 
+            fleur de son âge.
+            
+            
+            MARQUIS DE SOYECOURT
+            La Toison d’or sur un arbre
+            ORNATQUE, TEGITQUE
+            La Toison d’or servoit d’ornement tout
+            ensemble, et de défense à l’arbre qu’elle
+            couvroit, et de cette sorte elle convient
+            parfaitement au Maistre de la Garderobe,
+            qui ne se vante pas seulement de parer son
+            Prince: mais de le défendre aussi en toutes
+            occasions, au peril de sa vie.
+            
+            
+            
+            COMTE DE SAULT
+            Un jeune Lion
+            PATRIOS ASSURGIT IN UNGUES
+            Il est aisé de voir par cette Devise que
+            le Chevalier qui la porte, veut égaler
+            la vertu de ses ayeuls, et imiter le jeune Lyon,
+            qui donne déjà des marques
+            qu’il se rendra avec l’âge aussi redouté que
+            ses peres.
+            
+            
+            
+            DUC DE BOVILLON
+            Un Girasol
+            MIHI IUS CONCURRERE SOLI
+            Cette Plante a l’avantage de suivre en
+            quelque sorte le cours du Soleil; ainsi ce
+            Chevalier ne pouvoit choisir un corps de
+            Devise, qui marquât plus précisément
+            son attachement à son Prince, et son exactitude 
+            à suivre tous ses Commandemens.
+
+
+            MARQUIS DE CHARMASEL
+            Une Couronne de Palme
+            NON JUVAT EX FACILI
+            Ce Chevalier déclare qu’il aime les
+            Couronnes, non pas celles qui ne sont
+            composées que de fleurs faciles à trouver:
+            mais bien de celles qu’on ne sçauroit cueillir
+            qu’avec difficulté et avec peril , comme
+            la Palme et les Lauriers.
+            
+            
+            MARQUIS DE GAMACHE
+            Un Palmier panché vers un autre
+            SOLI SUCCUMBIT AMORI
+            Le Palmier n’est jamais accablé sous le
+            poids d’aucun fardeau, il s’éleve plus on le
+            charge; que si quelquefois il abbaisse sa cime
+            et ses branches, ce n’est que pour s’approcher
+            davantage de l’arbre, dont il est
+            amoureux, enquoy il est vray symbole
+            d’un grand courage, qui ne peut estre fléchy
+            que par la douceur, et vaincu que par
+            l’amour.
+
+            
+            CHEVALIER DE BETHUNES
+            Un Miroir ardent
+            DE SU LUZ MI FUEGO
+            La gloire du Roy est une lumiere éclatante,
+            qui allume dans le cœur de ce Chevalier
+            une ardeur incroyable pour son service,
+            et qui ressemble en cela aux rayons
+            du Soleil qui produisent du feu, étans receus
+            et refléchis par le miroir ardent.
+            
+            
+            MARQUIS DE PEGUILIN
+            Un Girasol qui regarde un Soleil
+            NE DESPICE AMANTEM
+            Le Girasol par le soin qu’il a de suivre
+            le Soleil, semble le conjurer sans cesse de ne
+            point détourner ses regards de dessus luy;
+            et en cela il est le symbole d’un Chevalier
+            fidele à sa Maîtresse, dont il souhaite sur
+            toute chose d’étre regardé sans cesse et favorablement.
+            
+            
+            MARQUIS DE COASLIN
+            Un Javelot
+            IN VAN NON MAI
+            Le javelot que l’Aurore donna à Cephale
+            ne manquoit jamais sa proye, et c’est
+            sans doute à celuy-là que cette Devise fait
+            allusion : en sorte que ce Chevalier prétend
+            n’étre pas moins seur de son coup,
+            que Cephale l’étoit autrefois.
+            
+            
+            DUC DE LVXEMBOVRG
+            Une Massuë
+            MAGNA MAJOR FAMA
+            Ce Chevalier prétend que la renommée
+            n’égalera jamais ses actions, de méme
+            qu’elle n’a jamais égalé celles d’Hercule;
+            Plusieurs desquelles sont demeurées ensevelies
+            dans l’oubly.
+            </div>
+        </body>
+    </text>
+</TEI>

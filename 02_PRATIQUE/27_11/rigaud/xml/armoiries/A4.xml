@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            
+            -->
+            <div type="personnage" xml:id="p-artuspetit">
+                <head> Artus le petit </head>
+                
+                <figure xml:id="img-artuspetit">
+                    <graphic url="img/A61.png"/> 
+                </figure>
+                
+                <p type="description"> Artus le petit portoit de sable à
+                    un sycamor d’or. Il estoit des
+                    plus preux et puissans de son aage
+                    et bien à dextre aux faicts d’armes
+                    et de noblesse. </p>
+            </div>
+
+
+
+
+--------------- Element 62  ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A62.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Ginglant Rochemond
+
+Ginglant Rochemond portoit
+d’argent à un baston de gueulles
+plein de neux. Combien qu’on ne
+trouve pas grand cas de cestuy-cy,
+toutesfois si est-il à nombrer avec
+ceux de la table ronde.
+
+--------------- Element 63 ---------------
+Artus l’esbloy
+
+Artus l’esbloy portoit de sable à 
+un espervier d’argent membré d’or.
+Il avoit le cœur prompt aux armes,
+et si estoit comme l’Espervier ardant 
+à conquerir sa proye pour en
+faire mention en la table ronde.
+
+--------------- Element 64 ---------------
+Guallogrenant de Uvyndezores
+
+Guallogrenant de Uvyndezores
+portoit de gueulles à deux gemelles 
+d’or. Il estoit de trespiteux
+courage et ne degerant jamais en
+ses preuses conquestes.
+
+--------------- Element 65  ---------------
+Kandelis
+
+Kandelis portoit de gueulles à
+trois espees d’argent, manches, roix,
+et pommeaux d’azur. L’intitulation
+de ce noble preux est fort illustree
+d’honneur et prouësse quant aux singularitez 
+de ses beaux faicts en tout
+art de chevalerie.
+
+--------------- Element 66 ---------------
+Merangis des Ports
+
+Merangis des Ports portoit d’argent,
+bordé de gueulles. Il estoit de
+preuse conqueste et fort estimé entre 
+ses compagnons et consors de
+la table ronde.
+
+--------------- Element 67 ---------------
+Gauvain le franc
+
+Gauvain le Franc en ses armes
+portoit de sable à un chef d’or à
+crois coquilles de gueulles. Il fut
+ordonné au renc de la table ronde,
+et solennisé ainsi que les autres.
+ 
+--------------- Element 68  ---------------
+Gnadius le Fort
+
+Gnadius le fort portoit d’or semé 
+de torteaux de gueulles. Il fut
+nommé fort de sa force comme lon
+peut croire, et fut l’un de la table
+ronde moult estimé.
+
+--------------- Element 69  ---------------
+Pharas le Noir
+
+Pharas le noir portoit d’azur à
+trois aiglettes d’argent membrees
+de sable. Combien qu’il eut le nom
+de noir si n’estoit il pas pourtant
+noircy et obfusqué d’aucune tache
+de mauvais nom et ignominie.
+
+--------------- Element 70 ---------------
+Pharas le Roux
+
+Pharas le Roux portoit d’azur à
+trois aiglettes d’argent, membrees
+de sable bordé, composé d’or et de
+sable. On peut presupposer cestuy
+cy auoir esté nommé le Roux, à cause 
+paraventure qu’il estort ainsi
+roux de nature, ou à raison qu'il
+estoit sanguin.
+
+--------------- Element 71  ---------------
+Jambegues le Garrulloys
+
+Jambegues le Garrulloys portoit 
+d’argent à trois annelets de
+gueulles. Cestuy fut ansi nommé
+en mon avis à cause qu’il parloit
+entre les dents et garrulloit, et fut
+preux et hardy.
+
+--------------- Element 72  ---------------
+Taulas de la Montaigne
+
+Taulas de la Montaigne portoit
+d’or à un monde la croix de gueulles.
+Cestuy cy estoit de la table ronde, 
+et bien illustra son ranc et siege
+ainsi que les autres.
+
+--------------- Element 73 ---------------
+Abandam le Fortuné
+
+Abandam le Fortuné portoit
+d'argent à un escu de gueulles. Si
+nous croyons à la commune estimation 
+il fut nommé le Fortuné à
+raison de ses bonnes fortunes, et
+ainsi le croit on communement.
+
+--------------- Element 74 ---------------
+Damatha de Foliment
+
+Damatha de Foliment portoit
+de Vair. Il estoit de moult noble
+contenance, preux et de grand
+courage en ses faicts et prouësses.
+
+--------------- Element 75 ---------------
+Amand le bel jousteur
+
+Amand le bel jousteur portoît
+de sable à un visage de femme à
+longs cheveux d’or. Il fut nommé
+le bel jousteur à raison qu’il scavoit
+tous les tours de la jouste, et l’estime 
+on avoir esté amateur des Dames.
+
+--------------- Element 76 ---------------
+Ganesmor le Noir
+
+Ganesmor le Noir portoit en
+ses armes de gueulles, à un Loup
+d’or armé de sable. Cestuy ne fut
+pas moindre que les autres de la table 
+ronde, qu’il emplit à sa fois.
+
+--------------- Element 77 ---------------
+Arphin le Dur
+
+Arphin le Dur portoit de Sable
+à une anile d’argent. Cestuy estoit
+nommé le Dur, comme je croy a
+cause qu’il estoit dur et constant à
+soustenir tous travaux et labeurs.
+
+--------------- Element 78 ---------------
+Arconstant l’Adurez
+
+Arconstant l’Adurez portoit
+d’or à une fesse d’azur. Il estoit en
+l’association des autres de la table
+ronde, et bien emplit son rang à
+grand honneur et gloire.
+
+--------------- Element 79 ---------------
+Le beau courant
+
+Le beau courant en ses armes
+portoit de sable à un cheval d’argent 
+ferré d’or. Assez est à conjecturer 
+que ce surnom luy escheut à
+raison de ses beaux exploicts qu’il
+faisoit es courses de ses preuses
+chevaleries, et aussi le cheval d’argent 
+ferré d’or signifie grand chose.
+
+--------------- Element 80 ---------------
+Le Laid Hardy
+
+Le Laid hardy portoit trois lozenges 
+d’argent et de sable. Combien 
+que cestuy fut d’aventure laid
+de corps et difformé, si merita il
+par sa hardiesse à avoir un tel nom.
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            
+            -->
+
+            <div type="personnage" xml:id="p-sagremord">
+                <head> Sagremor le Desrée </head>
+                
+                <figure xml:id="img-sagremord">
+                    <graphic url="img/A21.png"/> 
+                </figure>
+                
+                <p type="description"> Sagremor le Desrée portoit de
+                    Sable à deux estoilles d’or a un quanton 
+                    d’argent, dessus une estoille de
+                    Sable. Assez bien paroist à son nom
+                    et encore plus à ses armes qu’il estoit 
+                    de grand cœur et souveraine
+                    hardiesse comme l’un de ses consors
+                    et associez à la table ronde. </p>
+            </div>
+
+--------------- Element 22 ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A22.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Giron le Courtois
+
+Giron le Courtois portoit d’or.
+Cestuy Giron le Courtois correspondoit 
+à son nom en condition et
+valeur, simplicité et bonne contenance 
+de toutes ses manieres de faires
+De luy et de ses beaux faicts a esté
+faict un livre digne d’estre veu et
+regardé au long.
+
+--------------- Element 23 ---------------
+Seguram le Brun
+
+Seguram le Brun portoit d’or à
+un Dragon de sable armé et langue
+de sinople. Il estoit l’un de l’accomplissement 
+de la table ronde,
+preux et hardy, et embellissant la
+gloire et l’honneur de ses armes et
+prouësses.
+
+--------------- Element 24 ---------------
+Galehaut le blanc
+
+Galehaut le blanc portoit d’or
+à un dragon de gueulles armé, et
+langue de sable. Cestuy aussi estoit
+cogneu à ses armoiries auoir esté
+de preux et excellent estat quant
+aux arts et faicts de chevalerie.
+
+--------------- Element 25  ---------------
+Le Roy Meliadus
+
+Le Roy Meliadus portoit de synople.
+Ce noble Roy fut un des
+plus eslevez en prouësse, pouvoir et
+force de bras et de corps, qu’il est
+possible de raconter, et de ses beaux
+faicts et triumphes a esté faict et
+composé grands livres et volumes.
+
+--------------- Element 26 ---------------
+Le Roy Ban de Benoic
+
+Le Roy Ban de Benoic portoit
+d’argent à trois bandes de bellif.
+Il estoit doux et debonnaire, prest
+et appareillé à servir à chacun, et
+s’employer à tous nobles faicts
+d’armes.
+
+-------------- Element 27 ---------------
+Le Roy Boort de Gauves
+
+Le Roy Boort de Gauves portoit
+d’argent à trois bandes de gueulles
+semé d’estoilles de sable. Cestuy cy
+estoit fort puissant en tous nobles
+faicts d’armes et prouësses, et fut
+l’un des imitateurs et illustrateurs
+de la table ronde, et sont plusieurs
+qui ont veu aucunes Croniques et
+Romans faicts à son honneur.
+
+--------------- Element 28 ---------------
+Le Roy Karados
+
+Le Roy Karados portoit d’azur
+à une couronne d’argent. Cestuy
+Roy estoit de singuliere grace, plaisant 
+et profitant à tous, et meritoit
+bien selon l’insinuation de ses armes 
+estre Roy de nom et de faict.
+
+--------------- Element 29 ---------------
+Le Roy Lac
+
+Le Roy Lac portoit d’or à trois
+testes de dragons de gueulles, langues 
+de sinople. Aucuns ont cuydé
+cestuy-cy estre de l’origine de
+Lancelot du Lac, qui est chose
+bien possible, et aussi a-il imité aucuns 
+nobles faicts d’iceluy Lancelot du Lac.
+
+--------------- Element 30 ---------------
+Le Roy de Clares
+
+Le Roy de Clares en ses armes
+portoit d’or à une Croix potence
+de gueulles. Ce Roy de Clares fut
+moult noble et illustre et en tous
+et chacuns ses beaux faicts.
+
+--------------- Element 31 ---------------
+Le Roy Urien
+
+Le Roy Urien portoit d’azur à
+un Lyon d’or armé et langue de
+gueulles, pas n’estoit des derniers
+et extremes en ces nobles conquestes,
+ains fut de la superieure bande
+de la grand table ronde, bien signifié 
+estre preux et hardy par le Lyon
+qu’il portoit en ses armes.
+
+--------------- Element 32 ---------------
+Le Roy Loth d’Orchanie
+
+Le Roy Loth d’Orchanie portoit 
+de pourpre à un Aigle d’or à
+deux testes membrees d’azur. Cestuy 
+cy estoit du pays d’Orchanie,
+preux et magnanime autant qu’il est
+possible, dont il merite d’estre nombré 
+au beau ranc de la table ronde.
+
+--------------- Element 33 ---------------
+Le Roy Ryon
+
+Le Roy Ryon portoit de gueulles 
+à trois testes de Lyons d’or langue 
+de sable. Il estoit moult excellent
+en tous ses faicts et en pluralité
+de toutes armes, et aussi assez le testifient 
+les trois testes de Lyons qu’il
+portoit, et qui estoyent d’or, signifians 
+la dignité de noblesse.
+
+--------------- Element 34 ---------------
+Le Roy Pelinor
+
+Le Roy Pelinor portoit d’or semé 
+de croissans d’azur. Il amplifia
+fort et dignifia l’estat et condition
+de l’art militaire, et ne fut oncq’ inventé 
+en luy aucun tour de lascheté et paresse.
+
+--------------- Element 35 --------------
+Le Roy Baudemagus de Gorre
+
+Le Roy Baudemagus de Gorre
+portoit en ses armes de gueulles, à
+trois gants d’argent. Il estoit du
+rang et singulier nombre de la table 
+ronde, y faisant son devoir en
+l’acquisition d’honneur et de gloire.
+
+--------------- Element 36 ---------------
+Le Morhoult d’Irlande
+
+Le Morhoult d’Irlande portoit
+d’argent a une fesse cinq pieces sur
+le tout un Lyon de gueulles armé de
+synople, Son nom me semble quasi
+signifier quelque chose de grand et
+audacieux courage en luy, comme
+sont ceux d’Yrlande volontiers.
+
+--------------- Element 37 ---------------
+Le Roy Pharamond
+
+Le Roy Pharamond de Gaule
+portoit de sable à trois Crapaux
+d’or. Il fut preux et hardy, et grand
+conquerant comme l’on croit, et
+est icy pour l’un de la table ronde.
+
+--------------- Element 38 ---------------
+Danayn le Roux
+
+Danayn le Roux en ses armes
+portoit de gueulles à un porc espic
+d’or à ungle d’azur. Il estoit de la
+table ronde, car autrement on ne
+l’eut pas assis en celuy degré de
+preuse conquestes.
+
+--------------- Element 39 ---------------
+Amilan de Sessongne
+
+Amilan de Sessongne portoit
+d’argent à un serpent vollant de sable,
+armé de Gueulles. Cestuy
+estoit un des conquerans de la table 
+ronde, lequel fit grandes prouësse
+
+--------------- Element 40  ---------------
+Brallain
+
+Brallain en ses armes portoit
+d’argent à un sanglier de sable
+onglé et armé de gueulles. Il fut
+preux et hardy, et moult cruel contre
+ses adversaires et ennemys.
+            
+        </body>
+    </text>
+</TEI>

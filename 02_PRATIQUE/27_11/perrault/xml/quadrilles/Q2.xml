@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Courses de testes et de bague (1662) : devises et emblèmes</title>
+                <author>Charles Perrault</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>WORKSHOP_2026</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Paris, Imprimerie royale, 1670</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--Pour cette quadrille les images sont : 
+            0201 : Monsieur
+            0202 : Villeroy
+            0203 :  Plessis
+            0204 : Bellefond
+            0205 : Rohan
+            0206 :  L'Islebonne
+            0207 : Marsillac
+            0208 : Foix
+            0209 : Clere
+            0210 : Vaillac
+            0211 : D'Illiers
+            -->
+            
+            <!-- AIDE STRUCTURE VIDE, 
+                faire des couper/coller du texte et remplacer les info (xml:id / url) : 
+            
+                <div type="personnage" xml:id="p-REMPLACER">
+                            
+                    <head> REMPLACER </head>
+                    
+                    <figure xml:id="img-REMPLACER">
+                        <graphic url="img/REMPLACER.png"/>
+                        <figDesc> REMPLACER </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> REMPLACER </q>
+                    <p type="description">
+                        REMPLACER
+                    </p>
+                </div>
+            -->
+            <div type="quadrille" xml:id="q-persans" n="#2f6f8f">
+                <head>Persans</head>
+<!-- Ne pas rajouter de div pour la quadrille ! Seulement des div de type "personnage" pour les personnages -->
+
+                <div type="personnage" xml:id="p-monsieur">
+                    
+                    <head> DE MONSIEUR </head>
+                    
+                    <figure xml:id="img-monsieur">
+                        <graphic url="img/0201.png"/>
+                        <figDesc> Une Lune en son plein </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> UNO SOLE MINOR </q>
+                    <p type="description">
+                        Comme la Lune particulierement en son plein surpasse de beaucoup les autres Astres en grandeur et en lumiere;
+                        en sorte qu’il n’y a que le Soleil qui ait en cela quelque avantage sur elle, on peut dire, que c’est avec
+                        beaucoup de justice que Monsieur Frere Unique du Roy l’a prise pour le corps de sa Devise, puis qu’il ne voit
+                        point de rang au dessus du sien que celuy de sa Majesté. Mais elle luy convient encore particulierement en cette
+                        rencontre, parce qu’il represente le Roy de Perse, qui s’estimant le plus grand de tous les Roys, ne reconnoissoit 
+                        au dessus de luy que le Soleil qu’il adoroit.
+                    </p>
+                </div>
+            
+            
+            
+            
+            
+
+            MARQUIS DE VILLEROY
+            Un Dard entouré de Laurier
+            NEC SINE GLORIA CADET
+
+            De même que ce Dard est toûjours environné
+            de Laurier, quelque part qu’on le lance,
+            soit qu’il frappe au but, soit même qu’il
+            tombe à terre: Ainsi ce Chevalier a voulu
+            faire entendre que quelque expedition
+            qu’il entreprenne, elle sera toûjours accompagnée
+            de la gloire dont le Laurier est
+            le symbole, soit qu’elle luy reüssisse avantageusement,
+            soit méme qu’il y perde la vie.
+            
+            
+            COMTE DU PLESSIS
+            Une flâme
+            AB OBICE MAJOR
+            L’activité et la violence du feu s’augmentent
+            par la resistance qu’il rencontre, et
+            plus il est resserré, plus il éclate; Il en est de
+            même d’un grand courage, qui sent redoubler
+            son ardeur, soit dans la guerre, soit
+            dans l’amour, par les obstacles et les difficultez
+            qui se presentent.
+            
+            
+            
+            MARQUIS DE BELLEFOND
+            Une Abeille qui vole sur un Parterre
+            UNA SIN MAS
+            Comme une Abeille, aprés avoir consideré
+            toutes les fleurs d’un Parterre, enfin
+            s’attache à une seule; De même ce Chevalier
+            fait entendre par cette Devise, qu’encore
+            qu’il ait beaucoup de civilité, et d’inclination 
+            pour toutes les Dames; Il y en a
+            une neantmoins qui a toutes ses affections,
+            et à laquelle son cœur est particulierement
+            attaché.
+            
+            
+            
+            CHEVALIER DE ROHAN
+            Des Lauriers sur des charbons ardans
+            ARDER Y CALLAR ?
+            Ce feu peut representer ou celuy de la
+            gloire ou celuy de l’amour, mais de quelque
+            sorte qu’on l’interprete, ce Chevalier declare
+            qu’il luy est aussi impossible d’en brûler
+            sans faire du bruit, soit en faisant parler
+            de luy par ses belles actions, soit en parlant
+            de son ardeur à celle qui en est la cause, qu’il
+            est mal aisé que des Lauriers se laissent consumer
+            par le feu qui les brûle sans faire
+            beaucoup de bruit et beaucoup d’éclat.
+
+
+            COMTE DE L’ISLEBONNE
+            Un flambeau en plein jour
+            NOLLEM CESSISSE MINORI
+            Comme il n’y a que la seule lumiere du
+            Soleil qui soit capable d’effacer celle d’un
+            flambleau qui éclate durant la nuit quelque
+            autre Astre qui brille dans le Ciel. Ce
+            Chevalier prétend de même que la gloire
+            de sa Majesté efface à la verité la sienne:
+            mais qu’il se sent enflamé d’un si grand desir
+            d’en acquerir, qu’il ne voudroit pas le
+            ceder à pas un autre.
+            
+            
+            
+            PRINCE DE MARSILLAC
+            Une fournaise jettant une grande flâme
+            PIU NE COPRE, CHE NE SCOPRE
+            Quelque grande que soit l’ardeur des
+            vrays Amans, leur discretion doit étre encore
+            plus grande, et cacher plus de la
+            moitié de leur passion. C’est ce qu’a voulu
+            faire entendre ce Chevalier par cette
+            fournaise, dont l’on ne peut empécher qu’il
+            ne sorte quelque flame: mais qui en renferme
+            bien plus qu’elle n’en laisse paroître.
+            
+
+            COMTE DE FOIX
+            Un Ecu plein
+            COSI UVOL AMORE
+            La plus-part des Amans témoignent
+            leur passion dans leurs Devises, et publient
+            bien souvent ce qu’ils devroient cacher:
+            Mais ce Chevalier aimant à faire voir son
+            amour par sa discretion, dit que ce même
+            amour luy défend d’en faire rien paroître.
+            
+            
+            COMTE DE CLERE
+            Une grande flâme
+            FOELICITER AUDAX
+            La flâme s'éleve sans cesse, et par une
+            heureuse hardiesse prend toûjours le dessus;
+            A son imitation ce Chevalier espere
+            avoir toûjours avantage et sur ses rivaux
+            et sur ses ennemis.
+            
+            
+            COMTE DE VAILLAC
+            Une grande flâme
+            NE FREN NE TEMPO
+            Comme la flâme surmonte tous les obstacles 
+            qu’elle rencontre, et qu’elle s’augmente 
+            avec le temps au lieu de diminuer
+            tant qu’elle trouve de l’aliment. Ainsi
+            l’ardeur d’un grand courage se redouble
+            par les difficultez, et par le temps quand il
+            luy fournit de nouvelles occasions de se signaler.
+            
+            
+            COMTE D’ILLIERS
+            Une fusée volante
+            POCO DURI PUR CHE M'INALZI
+            Une fusée volante ne dure pas longtemps, 
+            mais elle s’éleve toûjours et avec
+            éclat tant qu’elle dure. Ce Chevalier qui
+            la prend pour sa Devise, souhaite de luy
+            ressembler, consentant que sa vie soit de
+            peu de durée, pourveu qu’elle soit éclatante,
+            et qu’elle aille toûjours s’élevant jusqu'au 
+            comble de la gloire.
+            
+            </div>
+        </body>
+    </text>
+</TEI>

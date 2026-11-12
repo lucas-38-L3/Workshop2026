@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            
+            -->
+            <div type="personnage" xml:id="p-arthur">
+                <head>Roy Artus</head>
+
+                <figure xml:id="img-arthur">
+                    <graphic url="img/A1.png"/>
+                </figure>
+
+                <p type="description"> Le Roy Artus portoit en ses armes d’Azur à treize couronnes
+                    d’or. Il fut grand conquerant, et fit nobles et vaillantes prouësses. Il
+                    institua l’ordre de la table ronde au pays de la grand Bretaigne, à laquelle
+                    devoyent comparoir une fois l’an, au jour de la Pentecoste, tous les chevaliers
+                    errans. </p>
+            </div>
+
+--------------- Element 2 ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A2.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+            
+Messire Lancelot du Lac
+
+Messire Lancelot du Lac portoit
+en ses armes d’argent à trois bendes
+de bellif. Il estoit preux et hardy, et
+l’un des plus nobles et eminens de la
+table ronde, qui ayma à secret la belle 
+Genievre femme du Roy Artus,
+et fit choses si admirables qu’on a
+composé de luy un livre, contenant
+ses faicts et prouësses.
+
+--------------- Element 3 ---------------
+Boort de Gaunes  <!-- Correction apportée ici écrit "Ganues" -->
+
+Boort de Gaunes portoit d’hermines 
+à trois bandes de gueulles, et
+fut preux et hardy, ainsi que clairement 
+demonstrent ses Croniques.
+Qui en veut sçauoir plus avant lise la
+table ronde, et Lancelot du Lac, et
+maints autres livres.
+
+--------------- Element 4  ---------------
+Gauvain d’Orcanie
+
+Gauvain d’Orcanie portoit de
+pourpre à vu aigle d’or à deux testes 
+membrees d’or. Cestuy conquerant 
+estoit de grand prouësse l’un
+des preux et excellens de la table ronde,
+qui fit choses dignes de memoire,
+et qui bien ennoblit et illustrat
+les faits d’armes, comme on voit és
+escritures militaires.
+
+--------------- Element 5  ---------------
+Messire Tristan de Lyonnois
+
+Messire Tristan de Lyonnois portoit 
+de Synople à un Lyon d’or armé, et langue de gueulles. 
+Cestuy ne fut pas moindre que les autres, et
+tant vaillamment se porta que de ses
+faicts et vertueuses conquestes a
+esté faict un livre comme des autres.
+
+--------------- Element 6  ---------------
+Lyonnet de Gauves <!--Gaunes ?-->
+            
+Lyonnet de Gauves portoit d’argent 
+à trois bandes de gueulles à
+neuf estoilles de sable, en cestuy cy
+ainsi qu’aux precedens estoit toute
+militaire vertu, et se porta tresbien
+en tous ses faits, et à bien considerer 
+la signification de ses armoiries
+assez paroist qu’il estoit du nombre
+des plus preux.
+
+--------------- Element 7  ---------------
+Helias le blanc
+
+Helias le blanc portoit d’argent à
+trois bandes de gueulles à un lambeau 
+de sable de trois pieces. Il
+estoit l’un de la table ronde moult
+renommé, et tousjours prest à conquester 
+l’estat et honneur de noblesse, et exerça plusieurs beaux
+cas.
+
+--------------- Element 8  ---------------
+Le Duc de Clarence
+
+Le Duc de Clarence en ses armes
+portoit d’azur à une ville d’Or massonnee 
+de Sable. Il estoit l’un des
+conquerans, qui se trouvoit à la table 
+ronde comme les autres, et non
+sans cause, car il fit mainte grande
+chevalerie pour honneur et louange accroistre.
+
+--------------- Element 9  ---------------
+Hector des Mares
+
+Hector des Mares portoit en ses
+armes d’argent à trois bandes de
+gueulles à un Soleil d’azur, et fut
+tres vaillant et preux, et fit choses
+bien dignes de memoire.
+
+--------------- Element 10  ---------------
+Bliomberis de Gauves
+
+Bliomberis de Gauves portoit
+d’argent à trois bandes de gueulles
+semé de croissans de sable. Cestuy
+cy estoit aussi l’un des conquerans
+de la table ronde, lequel fut fort
+estimé des gens belliqueux et de
+l’art militaire.
+
+--------------- Element 11 ---------------
+Gaheriet
+
+Gaheriet portoit de pourpre à un
+aigle d’or a deux testes, membrees
+de gueulles, à une bande de mesmes.
+Ceux qui ont leu la table ronde.
+Lancelot du lac et autres plusieurs
+livres, sçauent bien racompter ses
+faicts et prouësses.
+
+--------------- Element 12 ---------------
+Keux le Seneschal
+
+Keux le Seneschal portoit d’azur
+à deux aisles d’argent. Cestuy aussi
+est digne de se nom, et la enregistré
+noblesse de prouësse en ses louanges
+et honneurs. Il estoit de ceux
+de la table ronde et des plus apparens,
+et le voit on souvent alleguer.
+
+--------------- Element 13  ---------------
+Messire Yvain
+
+Messire Yvain portoit d’azur à
+un Lyon d’or armé de gueulles.
+Cestuy cy fut un des amplificateurs
+du nom de la Table ronde, et
+fut preux et hardy comme les autres ses consors.
+
+--------------- Element 14 ---------------
+Bruor le Noir
+
+Bruor le Noir portoit d’argent à
+un Lyon eschiqueté de gueulles et
+de Sable. Il estoit de semblable condition 
+et nature belliqueuse, que les
+autres preux et conquerans de la table
+ronde, ensuyvant tousjours la
+vivacité et stimule courage de la
+poincte d’honneur et de prouësse.
+
+--------------- Element 15  ---------------
+Baudoyer le Connestable
+
+Baudoyer le Connestable portoit
+d’or à un goufanon de gueulles, et
+estoit de l’imitation de l’art militaire, 
+preux et fort magnanime,
+n’espargnant son corps au travail
+et labeur pour acquerir los et honneur.
+
+--------------- Element 16 ---------------
+Agruar de Galles
+
+Agrual de Galles portoit de
+pourpre, semé de croisettes d’or
+à un Leopart d’argent armé de
+gueulles. Assez peut estre veu et
+appert à la paincture de ses armes
+de quel courage il pouvoit estre. Il
+est de ceux de la table ronde, qui
+n’eut oncques lascheté de courage
+en tous ses faicts et prouësses.
+
+--------------- Element 17 ---------------
+Segurades
+
+Segurades portoit d’or à un rocher 
+de Sable. Il estoit prompt et
+magnanime, et l’un de la table ronde,
+qui proprement peut estre digne 
+de grand estime, selon seulement 
+la signification de ses armes,
+car le Rocher de Sable peut denoter 
+force et constance contre tourmens
+et adversitez.
+
+--------------- Element 18  ---------------
+Patris le Hardy
+
+Patris le Hardy portoit d’argent
+freté de gueulles de six pieces. Cestuy 
+cy fut vray et parfaict imitateur 
+de toute noblesse, sçachant et
+cognoissant tous les tours et passages 
+de l’art de chevalerie, et fust de
+la table ronde.
+
+--------------- Element 19 ---------------
+Esclabor le Messonniez
+
+Esclabor le Messonniez portoit
+eschiqueté d’or et de gueulles.
+Tout bien et honneur estoit en cestuy 
+conquerant, jusques à l’acquisition 
+de trespreuses louanges, qu’il
+acquist avec grand travail et labeur.
+
+--------------- Element 20 ---------------
+Saphar le mescogneu
+
+Saphar le mescogneu portoit
+party premier de Vair, l’autre eschiqueté 
+d’or et de sinople. Il fut
+de grand estat et magnanimité, et
+combien qu’il fut mescogneu quant à
+ses parens et ancestres, toutesfois il
+fut clairement apperceu estre de
+grand dignité et prouësse quant à ses
+faits et addresses.
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            
+            -->
+
+            <div type="personnage" xml:id="p-brallain2e">
+                <head> Brallain, que lon disoit le cheualier aux deux espees </head>
+                
+                <figure xml:id="img-brallain2e">
+                    <graphic url="img/A41.png"/> 
+                </figure>
+                
+                <p type="description"> Brallain, que lon disoit le cheualier 
+                    aux deux espees portoit d’argent 
+                    à un sanglier de sable à trois
+                    estoilles d’azur. Cestuy ne diminua 
+                    pas l’estat de la table ronde,
+                    ains l’ennoblit et multiplia abondamment.
+                </p>
+            </div>
+
+
+
+--------------- Element 42  ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A42.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Gallehault
+
+Gallehault portoit d’argent semé 
+d’estoilles d’azur, à un Lyon de
+geulles armé de synople. Il estoit
+l’un de ceux qui amplifierent la table 
+ronde, preux, vaillant et hardy.
+
+--------------- Element 43 ---------------
+Lamorat de Lystenois
+
+Lamorat de Lystenois portoit
+pourpre semé de croisettes d’or à
+un Leopard d’argent armé de gueulles.
+Il estoit de trespreux maintien
+et bien entretenant les armes.
+
+--------------- Element 44  ---------------
+Brunor de Gauves
+
+Brunor de Gauves portoit d’argent
+semé de croissans de sable à
+trois bandes de gueulles. Cestuy
+estoit du nombre des autres, et
+esmeu à labeur de preuses conquestes.
+
+--------------- Element 45  ---------------
+Le bon Chevalier de Norgales
+
+Le bon chevalier de Norgales
+portoit en ses armes de gueulles à
+trois pates de Lyon d’or. Il estoit
+bien famé en tous ses affaires contendant 
+fort en l’acquisition de
+gloire et honneur.
+
+--------------- Element 46  ---------------
+Henry de Ryuel
+
+Henry de Ryuel portoit de sinople 
+à un Leopard d’argent, armé
+de langues de gueulles, à gouttes
+d’or. Il estoit moult grand zelateur 
+d’honneur et de gloire, et grandement 
+dignifia la gloire de la table ronde.
+
+--------------- Element 47 ---------------
+Messire Gullat
+
+Messire Gullat portoit d’argent 
+à une croix de gueulles. Faute 
+de cœur et de courage n’estoit
+es riches conquestes de cestuy cy,
+car il fit plusieurs cas admirables.
+
+--------------- Element 48 ---------------
+Gueherrées
+
+Gueherrées portoit de pourpre
+à un aigle d’or à deux testes membrees 
+d’argent gouttes de gueulles 
+en bordure. Il estoit de grand
+cœur et maintien, et prompt à accomplir 
+tous et chacuns nobles faicts d’armes.
+
+--------------- Element 49  ---------------
+Aggravain l’Orgueilleux
+
+Aggravain l’orgueilleux portoit
+de pourpre à un aigle à deux testes
+d’or, membrees de gueulles à une
+fesse de sinople en devise. Cestuy
+print et esleut sa devise comme on
+croit selon son surnom : car il portoit 
+l’aigle à deux testes qui assez
+respond de ferocité et orgueil.
+
+--------------- Element 50  ---------------
+Mordrec d’Orcanie
+
+Mordrec d’Orcanie portoit de
+pourpre à un aigle à deux testes
+d’or, membrees de mesmes, à un
+chef d’argent. Il estoit de grande
+diligence à faire tres preuses et nobles 
+entreprinses pour la table ronde.
+
+--------------- Element 51  ---------------
+Gyrflet
+
+Gyrftet portoit d’or semé de
+chardons de sable. Il estoit aussi de
+la table ronde, non moindre que
+plusieurs autres de son ordre.
+
+--------------- Element 52  ---------------
+Dodinel le Sauvage
+
+Dodinel le sauvage portoit d’argent 
+à un aigle d’azur membree
+d’or. Cestuy cy fut noble, grand et
+hardy, et de grand constance et courage,
+et fut l’un des enregistrez en
+la table ronde.
+
+--------------- Element 53 ---------------
+Yvain l’Avoutre
+
+Yvain l’Avoutre portoit d’or
+d’yapré d’Aiglettes, et Lyons de
+gueulles, membrees et armees de
+sable. Pas n’estoit de lasche condition,
+ny aussi de lasche et remise foiblesse.
+
+--------------- Element 54  ---------------
+Ozement cœur hardy
+
+Ozement cœur hardy portoit
+estellé d’argent et de gueulles. Ce
+nom de cœur hardy luy fut imposé 
+à cause de la hardiesse qu’il avoit
+en tous ses nobles faicts.
+
+--------------- Element 55  ---------------
+Gualegantin le Gallois
+
+Gualegantin le Gallois portoit
+party d’or et de sable sur le tout un
+leonceau de sinople armé, et langue de gueulles. 
+Il estoit de tresbon
+affaire, tousiours pensant à l’augmentation 
+d’honneur et prouësse.
+
+--------------- Element 56 ---------------
+Gaheriet de Lemballé
+
+Gaheriet de Lemballe portoit
+en manche d’argent et de gueulles.
+Onc n’amoindrist le courage de
+cestuy-cy, ains croissoit tousjours
+en avant, et de plus en plus aspiroit
+aux nobles conquestes.
+
+--------------- Element 57  ---------------
+Mador de la porte
+
+Mador de la porte portoit de sable 
+à sept pommettes d’argent, colorées 
+de gueulles. Les armes de
+cestuy-cy portent quelque bonne
+signification de ses faicts et vertus.
+
+--------------- Element 58  ---------------
+Bamers le Forcené
+
+Bamers le Forcené portoit de
+gueulles à un geron d’argent. Cestuy
+estoit bien conforme à son
+nom, car quant il estoit courroucé 
+assez monstroit sa fureur et prouesse.
+
+--------------- Element 59 ---------------
+Dynadam d’Estrangore
+
+Dynadam d’Estrangore portoit 
+d’argent à un Lyon de sable armé,
+et langue de sinople. Il estoit
+des compagnons et consors de la
+table ronde, faisant son devoir ainsi que les autres. 
+
+--------------- Element 60 ---------------
+Heret le fils de Lac
+
+Heret fils de Lac portoit d’or à
+trois testes de serpens de gueulles,
+langues de sinople. Qui le veut
+prendre selon la signification de ses
+armes on le peut juger avoir esté
+cruel et prudent comme le serpent
+en ses faicts et allarmes.
+            
+        </body>
+    </text>
+</TEI>

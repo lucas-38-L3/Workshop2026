@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Courses de testes et de bague (1662) : devises et emblèmes</title>
+                <author>Charles Perrault</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>WORKSHOP_2026</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Paris, Imprimerie royale, 1670</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--Pour cette quadrille les images sont : 
+            0101 : Roi
+            0102 : Vivonne
+            0103 : Saint Agnan
+            0104 : Navailles
+            0105 : D'Armagnac
+            0106 : Du Lude
+            0107 : Louvigny
+            0108 : Feuillade
+            0109 : Villequier
+            0110 : Richelieu
+            0111 : Duras
+            -->
+            
+            <!-- AIDE STRUCTURE VIDE, 
+                faire des couper/coller du texte et remplacer les info (xml:id / url) : 
+            
+                <div type="personnage" xml:id="p-REMPLACER">
+                            
+                    <head> REMPLACER </head>
+                    
+                    <figure xml:id="img-REMPLACER">
+                        <graphic url="img/REMPLACER.png"/>
+                        <figDesc> REMPLACER </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> REMPLACER </q>
+                    <p type="description">
+                        REMPLACER
+                    </p>
+                </div>
+            -->
+
+            <div type="quadrille" xml:id="q-romains" n="#9b2335"> 
+                <head>Romains</head>
+<!-- Ne pas rajouter de div pour la quadrille ! Seulement des div de type "personnage" pour les personnages -->
+                
+                
+                
+                
+                <div type="personnage" xml:id="p-roi">
+                    <head>DU ROY</head>
+                    
+                    <figure xml:id="img-roi">
+                        <graphic url="img/0101.png"/>
+                        <figDesc>Un Soleil</figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> UT VIDI, VICI</q>
+                    <p type="description">
+                        Il seroit mal-aisé de trouver un Corps de Devise qui convint mieux au Roy que celuy du Soleil, veu le nombre 
+                        presque infiny de convenances illustres qui se rencontrent entre ce Grand Prince, et ce bel Astre; Mais sans
+                        doute qu’une des plus remarquables, et qui est touchée par cette Devise, est que comme le Soleil n’a qu’à se faire
+                        voir pour dissiper les tenebres, ainsi ce Grand Monarque n’a besoin que de sa presence pour vaincre ses ennemis.
+                        Ce qui est heureusement exprimé par ces mots, UT VIDI, VICI, qui font allusion à ce mot de Jules
+                        Cesar, veni, vidi, vici.
+                    </p>
+                </div>
+            
+
+            COMTE DE VIVONNE
+            Un Miroir ardant
+            TUA MUNERA JACTO
+            Le Miroir ardant loin de renfermer en
+            luy-méme la lumiere du Soleil, la refléchit,
+            et la renvoye de toutes parts avec
+            encore plus de force qu’elle ne luy est envoyée,
+            et de cette sorte il est le symbole
+            parfait de la reconnoissance de ce Chevalier 
+            pour les bienfaits qu’il a receus de Sa
+            Majesté, qu’il s’efforce de faire éclater en
+            tous lieux et en toutes rencontres.
+            
+            
+            COMTE DE SAINT-AGNAN
+            Un Laurier exposé au Soleil
+            SOLI
+            Le Laurier est le symbole de la Victoire,
+            qui a cela de commun avec ce Chevalier,
+            qu’elle ne veut appartenir qu’au Roy
+            seul, et ne se ranger jamais que de son
+            party.
+            
+
+            COMTE DE NAVAILLES
+            Une Aigle regardant le Soleil
+            PROBASTI
+            On sçait que les Aigles éprouvent leurs
+            Aiglons en les exposant aux rayons du Soleil,
+            et que ceux-là seulement sont reputez
+            estre veritablement de leur race qui en peuvent
+            supporter l’éclat sans siller les yeux. Ce
+            Chevalier prétend de méme que les grands
+            et illustres employs dont le Roy l’a honoré,
+            et qu’il a soûtenus avec gloire, sont des marques 
+            assurées de son merite et de sa fidelité.
+            
+
+            COMTE D’ARMAGNAC
+            Une Couronne de Laurier
+            HIC LABOR, HIC MERCES
+            Ce Chevalier se promet que la Victoire
+            representée par cette Couronne, estant
+            le but de tous ses travaux, en sera pareillement 
+            l’issuë et la recompense.
+            
+            
+            COMTE DU LUDE
+            Un Cadran exposé au Soleil
+            TE SINE NOMEN INERS
+            Quelque juste et bien fait que soit un
+            Cadran, il ne peut estre utile s’il n’est regardé
+            du Soleil. Ce Chevalier reconnoit
+            de même que quelque merite qu’il puisse
+            avoir en sa personne, il ne peut devenir
+            considerable qu’autant qu’il plaira à sa Majesté
+            de le considerer, et de luy donner
+            moyen de mettre en usage les divers talens
+            qu’il possede.
+            
+            
+            COMTE DE LOUVIGNY
+            Un Javelot fiché dans terre
+            CERTASSE JUVABIT
+            Comme un javelot est toûjours prest
+            au combat; de même ce Chevalier assure
+            qu’il ne demande autre chose que d’étre
+            employé aux nobles exercices de la
+            guerre.
+            
+            
+            COMTE DE LA FEUILLADE
+            Un Girasol tourné vers le Soleil
+            UNI
+            L'inclination que le Girasol témoigne
+            pour le Soleil est connuë de tout le monde;
+            et c’est par ce symbole que le Chevalier
+            qui le prend pour sa Devise a voulu marquer
+            la fidelité inviolable, avec laquelle
+            il veut s’attacher à son Prince, et n’avoir
+            jamais d’autres mouvemens que les siens.
+            
+            
+            MARQUIS DE VILLEQUIER
+            Une Aigle qui plane
+            UNI MILITAT ASTRO
+            L’Aigle accoûtumée à porter le foudre
+            de Jupiter ne voudroit point se charger des
+            Armes d’une autre Divinité. Ce Chevalier
+            assure de même qu’il ne veut étre occupé
+            qu’à la défense et à la garde de son
+            Prince qu’il regarde comme le seul Astre
+            d’où dépend toute sa fortune.
+            
+            
+            MARQUIS DE RICHELIEU
+            Une Fusée volante
+            ARDO PARA SUBIR
+            Comme le feu qui brûle une fusée volante
+            est cause de son élevation, on peut
+            dire de même que l’amour de la gloire,
+            dont l’ame de ce Chevalier est embrasée,
+            en luy faisant produire de grandes actions,
+            sera cause de son élevation aux plus grands
+            et plus illustres emplois.
+            
+            
+            COMTE DE DURAS.
+            Un Lion regardant un Soleil
+            DE TUOI SGUARDI MIO ARDORE
+            Le Lion qui ne se plaît que dans les
+            païs extremement chauds, est redevable
+            de l'ardeur de son courage à celle des
+            rayons du Soleil dont il est échauffé: Ainsi
+            ce Chevalier déclare que sa valeur s’augmente
+            et se redouble par les regards favorables
+            de son Prince.
+            </div>
+        </body>
+    </text>
+</TEI>

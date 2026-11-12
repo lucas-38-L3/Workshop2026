@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            -->
+            <div type="personnage" xml:id="p-percevaldegalles">
+                <head> Perceual de Galles. </head>
+                
+                <figure xml:id="img-percevaldegalles">
+                    <graphic url="img/A141.png"/> 
+                </figure>
+                
+                <p type="description"> Perceval de Galles portoit de
+                    pourpre semé de croisettes d’or.
+                    Cestuy fut celuy qui s’assist au lieu
+                    vague de la table ronde, qui estoit
+                    seulement destiné à un qui seroit
+                    vierge, et de luy a esté compillé un
+                    hure que lon nomme Perceual. </p>
+            </div>
+
+
+--------------- Element 142  ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A142.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Kaeux d’estraux
+
+Kaeux d’Estraux portoit d’or à
+trois bandes de sable. Cestuy cy
+fut d’ardant courage, et fit choses
+dignes de grand estime, dont il est
+honoré et reputé l’un des conquerans 
+de la table ronde.
+
+--------------- Element 143  ---------------
+L’Amant du boys
+
+L’Amant du boys portoit d’or à
+une fesse ou bande endentellee de
+sable. Ainsi fut il surnommé l’Amant 
+du boys, à raison qu’il hantoit
+les boys esquels estoyent les dames 
+et fées.
+
+--------------- Element 144  ---------------
+Melianderis de Sansen
+
+Melianderis de Sansen portoit
+de gueulles à un Regnard d’or armé 
+et langue d’azur. Ses preuses acquisitions 
+et conquestes d’honneur
+et chevalerie l’exaltent jusques à la
+qualité des plus excellens de la table 
+ronde.
+
+--------------- Element 145 ---------------
+Mandrin le Sage
+
+Mandrin le sage portoit party le
+premier barré d’or et de pourpre, et
+l’autre de gueulles. Sa force et constance 
+le rendit excellent et digne
+du tiltre et intitulation de la table
+ronde, ou tant de preux se trouvoyent 
+à la feste de la Pentecoste.
+
+--------------- Element 146  ---------------
+Kalahart le petit
+
+Kalahart le petit portoit en ses
+armes de sable à un orle de croix
+pieces d’or. Il suyvoit l’imitation
+des autres conquerans, et se portoit 
+tresbien et en noble maniere.
+
+--------------- Element 147  ---------------
+Sadoc de Vencon
+
+Sadoc de Vencon portoit une
+mer d’argent et de sable. La mer
+d’argent et de sable peut signifier
+grand chose, et est cela de grande
+exaltation en estat d’armoirie
+
+--------------- Element 148  ---------------
+Ferandon le pauvre
+
+Ferandon le pauvre portoit d’or
+à une fesse de cinq pieces de sinople.
+Il estoit yssu de pauures ancestres,
+pourtant fut il nommé le pauvre,
+toutesfois il fut preux et hardy.
+
+--------------- Element 149 ---------------
+Verraut de la Roche
+
+Verraut de la Roche portoit de
+gueulles à un allant d’or armé, et onglé 
+de sable. Il estoit du grand nombre
+militaire de ceste table ronde
+qu’il embellit et paravant qu’un des
+autres Chevaliers.
+
+--------------- Element 150  ---------------
+Le Brun sans joye
+
+Le Brun sans joye portoit party
+le premier de gueulles, semé de larmes 
+d’argent: et l’autre de sinople
+semé de l’armes d’or. Combien qu’il
+fut ou semblast triste si estoit-il de
+grande entreprinse, preux et vaillant.
+
+--------------- Element 151 ---------------
+Busterin le grand
+
+Busterin le grand portoit d’or a
+deux clefs d’argent. Cestuy estoit
+de grand maintien et constance en
+tous faicts de Chevalerie, et fit
+maints nobles faicts en son temps.
+
+--------------- Element 152 ---------------
+Le Chevalier des sept voyes
+
+Le Chevalier des sept voyes portoit 
+de gueulles à un pont d’argent
+massonné de sable, et dessouz une
+riviere d’argent. Vous pouuez bien
+penser qu’il ne fut pas ainsi nommé
+sans cause, et ne portoit telle devise
+sans grand raison.
+
+--------------- Element 153  ---------------
+Gringalois le Fort
+
+Gringalois le Fort portoit en
+ses armes de sable à une Licorne
+d’argent. Il ne fut pas sans cause
+nommé le Fort, car il estoit puissant
+prompt et hardy en toutes nobles
+avantures.
+
+--------------- Element 154  ---------------
+Malaquin le Galois
+
+Malaquin le Galoys portoit une
+coupe d’argent. La Table ronde ne
+fut sans luy ne sans illustration de
+ses preuses conquestes, beaux faicts
+d’armes et autres choses.
+
+--------------- Element 155  ---------------
+Agricolle beau grand
+
+Agricolle beau grand en ses armes 
+portoit d’hermines. Il estoit de
+grand valeur et entreprise entre les
+autres de la Table ronde, et fit noble 
+conquestes en acquerant bruit
+et renom.
+
+--------------- Element 156  ---------------
+Gualindes du Tertre
+
+Gualindes du Tertre portoit d’argent 
+à une merlette de sable. Tresfort 
+et vertueux fut cestuy Champion,
+et de tous blasonné par l’exercice 
+et experience de ses faicts qu’il
+accomplit heureusement.
+
+--------------- Element 157  ---------------
+Margondes le rouge
+
+Margondes le Rouge en ses armes 
+portoit de gueulles à une bande
+d’or en six pieces. Il fut aussi augmentateur 
+des nobles entreprinses
+de la table ronde, et y desservit los
+et louange moult amplement.
+
+--------------- Element 158  ---------------
+Kacerdins de la valee
+
+Kacerdins de la vallée portoit de
+gueulles à une faux d’or emmanchee 
+de sable. Il fut puissant et de
+grand force militaire, et bien desservit 
+estre l’un de la compagnie
+devant nommée.
+
+--------------- Element 159  ---------------
+Nabon le Fel
+
+Nabon le Fel portoit d’argent à
+trois fuzées de gueulles. Pas ne desaccreut 
+en cestuy toute la gloire
+de chevalerie, ains augmenta de
+jour en jour, et s’accreut grandement 
+et victorieusement.
+
+--------------- Element 160 ---------------
+Talamor le volant
+
+Talamor le volant portoit de sinople 
+à une colombe d’argent membrée
+de gueulles. Il fut grand conquerant
+et preux en tous beaux faicts
+de l’art militaire, dequoy il fut fort
+exaucé.
+
+        </body>
+    </text>
+</TEI>

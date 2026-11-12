@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Devise des armes des chevaliers de la Table Ronde, lesquels estoyent du tres renomme et vertueux Artus, 
+                    roy de la grand Bretaigne, avec la description de leurs armoiries </title>
+                <editor>Benoist Rigaud</editor>
+            </titleStmt>
+            <publicationStmt><p>WORKSHOP_2026_BIS</p></publicationStmt>
+            <sourceDesc><bibl>Lyon, chez Benoist Rigaud</bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Spécificité : 
+            dans la div, l'id fait office de classement durant la transformation : 
+            pour que l'ordre alphabétique se fasse dans l'ordre des prénom, mettre seulement "p-PRENOM"
+            Dans le head le nom tel qu'il apparait dans le facs doit être mis.
+            Cette distinction permet de ne pas classer dans les "R" "roi Arthur", mais bien dans les "A"
+            
+            
+            ATTENTION : certains chevaliers ont le même prénom ! 
+            Penser à mettre APRÈS le prénom les initiales pour rendre unique au mieux les ID
+            Si il y a un conflit, cela apparaitra dans la visualisation : il faudra alors modifier des ID 
+            en identifiant les doublons
+            
+            -->
+            <!--AIDE, structure minimale à trou : 
+                
+                <div type="personnage" xml:id="p-REMPLACER">
+                <head> REMPLACER </head>
+
+                <figure xml:id="img-REMPLACER">
+                    <graphic url="img/REMPLACER.png"/> 
+                </figure>
+
+                <p type="description"> REMPLACER </p>
+            </div>
+            
+            -->
+            <div type="personnage" xml:id="p-enfantplesseis">
+                <head> L’enfant du Plesseis </head>
+                
+                <figure xml:id="img-enfantplesseis">
+                    <graphic url="img/A101.png"/> 
+                </figure>
+                
+                <p type="description"> 
+                    L’enfant du Plesseis portoit de
+                    gueulles à trois roles d’argent. Les
+                    trois roses d’argent insinuoyent et
+                    donnoyent à conjecturer qu’il estoit
+                    de noble et amoureux affaire.
+                </p>
+            </div>
+
+
+--------------- Element 102 ---------------
+<!-- Indique le numéro de l'image à lier sous le format "A"+ n°élément : ici "A82.png" : CETTE LIGNE DOIT ÊTRE SUPPRIMÉE APRÈS -->
+Le Roy Malaquin d’outre les marches de Galonne
+
+Le Roy Malaquin d’outre les
+marches de Galonne en ses armes
+portoit d’or à une teste de morien
+couronnee d’argent. Cestuy demonstre 
+par ses armoiries qu’il
+estoit de grand effect, et s’appliquoit 
+à honneur et chevalerie.
+
+--------------- Element 103 ---------------
+Persides le Gent
+
+Persides le Gent en ses armes
+portoit d’argent semé de tourteaux
+azur. Cestuy cy fut courtois, plaisant 
+et gorgias, et pour ceste cause
+fut il surnommé le gent.
+
+--------------- Element 104  ---------------
+Sibilias aux dures mains
+
+Sibilias aux dures mains portoit
+en son escusson d’or à un feu de
+gueulles. Il fut nommé aux dures
+mains à raison de force et constance 
+qu’il avoit, et estoit ardant comme 
+feu en ses faicts.
+
+--------------- Element 105 ---------------
+Sinados l’Esil
+
+Sinados l’Esil portoit de gueules 
+à un filet d’or. Il estoit de belle
+stature, plaisant à voir et gracieux,
+et fit chose de grand memoire.
+
+--------------- Element 106  ---------------
+Arphazar le gros cœur
+
+Alphazar le gros cœur portoit
+de sable à un sautouer d’argent. Il
+estoit de preuse conqueste, qui bien
+fit et moult exploicta l’accomplissement 
+de ses belles entreprintes.
+
+--------------- Element 107  ---------------
+Le Blond amoureux
+
+Le Blond amoureux en ses armes
+portoit de sable à un pigne d’argent
+plein de cheveux d’or. On peut remembrer 
+cestuy cy avoir esté de
+preuse conqueste, et amant d’aucune 
+dame ou fée des boys.
+
+--------------- Element 108 ---------------
+Argahac le beau
+
+Argahac le beau portoit d’or à
+un thoreau de gueulles, et langue
+d’azur. Il fut conquerant de la table 
+ronde, et sont ses armes a la comparer 
+aux plus forts et puissans.
+
+--------------- Element 109  ---------------
+Normain le Pelerin.
+
+Normain le Pelerin portoit de
+sable semé de coquilles d’or et
+d’argent. Il fut nommé Pelerin à
+cause de ses grands voyages, pour
+tant il portoit les coquilles d’or et
+d'argent.
+
+--------------- Element 110 ---------------
+Harmain le Felon
+
+Harmin le Felon portoit en ses
+armes burelé d’or et d’azur. Assez
+demonstre son surnom qu’il estoit
+moult cruel, et demonstrant sa felonnie 
+quant il estoit en son courroux.
+
+--------------- Element 111 ---------------
+Toscane le Romain
+
+Toscane le Romain portoit d’or
+à une main de sable tenant une espee 
+de gueulles. Il avoit le cœur et
+courage selon la condition du pays
+duquel il estoit; et fut preux et
+hardy.
+
+--------------- Element 112 ---------------
+Landon le Leger
+
+Landon le Leger portoit en ses
+armes bande contre bande d’or et
+d’azur. Cestuy cy estoit diligent et
+prompt aux armes autant que autre
+qui soit de sa sorte.
+
+--------------- Element 113 ---------------
+Le Fort Trouvé
+
+Le Fort trouvé portoit d’argent
+à un Sanglier de sable armé, et ongle 
+de gueulles. Il fut fort et de
+grand prouësse, zelateur de tous et
+chacuns nobles faicts d’armes, et
+amateur d’honneur et de gloire.
+
+--------------- Element 114  ---------------
+Le Noir perdu
+
+Le noir perdu portoit en ses armes 
+d’argent à un tigre de sable armé 
+et onglé de sinople. Il estoit
+moult cruel equivalent à la proprieté 
+du tigre, qui est une beste
+moult fort cruelle.
+
+--------------- Element 115 ---------------
+Le Fortuné de l’Isle
+
+Le Fortuné de l’Isle portoit de
+gueulles à un Elephant d’or armé,
+et ongle d’azur. Il fut nommé le Fortuné 
+à raison de ses bonnes fortunes,
+et bien demonstre l’Elephant
+de son escusson, qu’il estoit preux
+et hardy quant il estoit esmeu.
+
+--------------- Element 116 ---------------
+Le Fée des Dames
+
+Le Fée des Dames portoit de
+sable à trois bilettes d’argent. Il
+fut fasciné et fée des Dames habitans 
+es boys et montaignes, et fut
+preux et hardy comme ses compaignons 
+et confors.
+
+--------------- Element 117  ---------------
+Le Forestier de Denneviche
+
+Le Forestier de Denneviche portoit
+d’or à un bois de sinople à un
+or d’argent. Il estoit merveilleux
+en ses faicts et tousjours aspirant à
+tresbien faire son devoir.
+
+--------------- Element 118 ---------------
+Le Chasseur d’outre les Marches
+
+Le Chasseur d’outre les Marches
+portoit d’hermines d’or et de sinople.
+Bon conquerant fut cestuy-cy,
+excellent et preux en ses faicts et
+preuses conquestes pour l’honneur
+des Dames et de gentillesse.
+
+--------------- Element 119  ---------------
+Ieyr et Landois de Rufe
+
+Ieyr et Landois de Rufe portoyent
+de gueulles à une cloche d’argent 
+batellee de sable. Ces deux
+estoyent compagnons alliez, et
+tant s’aymoyent que leurs escussons 
+se sembloyent en tout comme
+leurs desirs et souhaicts.
+
+--------------- Element 120 ---------------
+Geoffroy le Lacois
+
+Geoffroy le Lacois portoit de
+gueulles à une tour d’or massonnee
+de sable. Il accomplit le rang de la
+table ronde, comme l’un des consors 
+de celle dignité et honneur,
+            
+        </body>
+    </text>
+</TEI>
