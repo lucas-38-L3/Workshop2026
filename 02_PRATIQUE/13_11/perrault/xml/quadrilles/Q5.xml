@@ -69,35 +69,68 @@
                     </p>
                 </div>
                             
-
-            CHEVALIER D’HARCOURT
-            Une Croix de Lorraine dans un Soleil, qui
+<div type="personnage" xml:id="p-CHEVALIER D’HARCOURT">
+                            
+                    <head> CHEVALIER D’HARCOURT </head>
+                    
+                    <figure xml:id="img-CHEVALIER D’HARCOURT">
+                        <graphic url="img/0502.png"/>
+                        <figDesc> Une Croix de Lorraine dans un Soleil, qui
             jette des rayons sur une Croix de Chevalier,
-            et des foudres sur des Croissans
-            HINC LUMEN, HINC FULMINA
-            Le Soleil étant la source de la Lumiere,
+            et des foudres sur des Croissans </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> HINC LUMEN, HINC FULMINA </q>
+                    <p type="description">
+                        Le Soleil étant la source de la Lumiere,
             et la cause principale des Foudres; ce
             Chevalier veut donner à entendre que le
             Roy representé par ce Soleil, est celuy de
             qui sa Maison et luy tirent toute leur gloire,
             et de qui partent les foudres qui doivent 
             abatre l’orgueil des Ottomans.
+                    </p>
+                </div>
             
-            MARQVIS DE ROCHEFORT
-            Un Cimeterre enrichy de pierreries
-            SPLENDOR, ET AUXILIUM
-            Comme cette Epée est recommandable
+            
+           
+            
+            <div type="personnage" xml:id="p-MARQVIS DE ROCHEFORT">
+                            
+                    <head> MARQVIS DE ROCHEFORT </head>
+                    
+                    <figure xml:id="img-MARQVIS DE ROCHEFORT">
+                        <graphic url="img/0503.png"/>
+                        <figDesc>  Un Cimeterre enrichy de pierreries </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> SPLENDOR, ET AUXILIUM </q>
+                    <p type="description">
+                        Comme cette Epée est recommandable
             par l’éclat et le prix des pierreries qui l’embelissent,
             et au même temps par le secours
             que l’on en peut tirer; ce Chevalier prétend 
             de même, que sa valeur doit tout ensemble 
             luy acquerir la gloire, et servir à la
             défense de son Prince, et de son Païs.
+                    </p>
+                </div>
             
-            MARQUIS DE PLUMARTIN
-            Un Diamant brute que l’on polit
-            CHI MI TOCCA SI STRUGGE, E MILLUSTRA
-            Il se fait un espece de combat entre le
+           
+            
+            
+            <div type="personnage" xml:id="p-MARQUIS DE PLUMARTIN">
+                            
+                    <head> MARQUIS DE PLUMARTIN </head>
+                    
+                    <figure xml:id="img-MARQUIS DE PLUMARTIN">
+                        <graphic url="img/0504.png"/>
+                        <figDesc>  Un Diamant brute que l’on polit </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> CHI MI TOCCA SI STRUGGE, E MILLUSTRA </q>
+                    <p type="description">
+                        Il se fait un espece de combat entre le
             Diamant et l’Aimant qu’on employe pour
             le polir, où tout le dommage est du costé
             de l’Aimant qui se consume, et l’avantage
@@ -108,21 +141,46 @@
             toûjours mal de l’avoir attaqué, et
             luy au contraire, en sortira à son avantage,
             et plus brillant de gloire qu’auparavant.
+                    </p>
+                </div>
             
+           
+           
             
-            MARQUIS DE LA CHASTRE
-            Un Cœur sur un feu de bois de Myrthe et d’Encens
-            GLORIAE ET AMORI
-            Ce Chevalier veut donner à entendre
+            <div type="personnage" xml:id="p-MARQUIS DE LA CHASTRE">
+                            
+                    <head> MARQUIS DE LA CHASTRE </head>
+                    
+                    <figure xml:id="img-MARQUIS DE LA CHASTRE">
+                        <graphic url="img/0505.png"/>
+                        <figDesc> Un Cœur sur un feu de bois de Myrthe et d’Encens </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> GLORIAE ET AMORI </q>
+                    <p type="description">
+                        Ce Chevalier veut donner à entendre
             que son coeur est sensible à la gloire et à l’amour 
             representez par l’Encens, et le Myrthe,
             qui en sont les symboles.
+                    </p>
+                </div>
             
             
-            MARQUIS DE RAGNY
-            Un Oranger chargé de feüilles et de fruits
-            POSITA FERITATE NITESCIT
-            Un Oranger que l’on a enté sur un Sauvageon
+            
+            
+            
+            <div type="personnage" xml:id="p-MARQUIS DE RAGNY">
+                            
+                    <head> MARQUIS DE RAGNY </head>
+                    
+                    <figure xml:id="img-MARQUIS DE RAGNY">
+                        <graphic url="img/0506.png"/>
+                        <figDesc> Un Oranger chargé de feüilles et de fruits </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> POSITA FERITATE NITESCIT </q>
+                    <p type="description">
+                         Un Oranger que l’on a enté sur un Sauvageon
             non seulement apporte de plus
             beaux fruits, et de plus belles fleurs : mais
             pousse aussi de plus beaux feüillages qu’auparavant.
@@ -130,22 +188,48 @@
             de même, qu’il tempere les exercices farouches 
             de la guerre, par les jeux et les divertissemens 
             de la Paix.
+            </p>
+                </div>
             
             
-            MARQUIS DE MIREPOIX
-            Un Laurier et un Cyprez
-            VINCERE AUT MORI
-            Ces deux Arbres dont la signification 
+            
+            
+           
+            <div type="personnage" xml:id="p-MARQUIS DE MIREPOIX">
+                            
+                    <head> MARQUIS DE MIREPOIX </head>
+                    
+                    <figure xml:id="img-MARQUIS DE MIREPOIX">
+                        <graphic url="img/0507.png"/>
+                        <figDesc>  Un Laurier et un Cyprez </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> VINCERE AUT MORI </q>
+                    <p type="description">
+                        Ces deux Arbres dont la signification 
             est assez connüe, ont été choisis par ce Chevalier,
             pour faire entendre qu’il ne trouve
             point de party à prendre entre celuy de la
             Victoire, et celuy de la Mort.
-
-
-            MARQUIS DE VERVINS
-            Un Autel avec un Encensoir dessus
-            ET COLIT, ET PASCIT
-            L'Encens étoit consideré non seulement
+                    </p>
+                </div>
+            
+            
+           
+            
+            
+<div type="personnage" xml:id="p-MARQUIS DE VERVINS">
+                            
+                    <head> MARQUIS DE VERVINS </head>
+                    
+                    <figure xml:id="img-MARQUIS DE VERVINS">
+                        <graphic url="img/0508.png"/>
+                        <figDesc> Un Autel avec un Encensoir dessus </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> ET COLIT, ET PASCIT </q>
+                    <p type="description">
+                        L'Encens étoit consideré non seulement
             comme une marque du culte que l’on rendoit 
             aux Dieux, mais en quelque façon
             comme une nourriture dont ils se repaissoient,
@@ -155,36 +239,72 @@
             son Prince, et qu’en qualité de premier 
             Maître d’Hôtel du Roy, il se donne
             tout entier aux soins de la table de S. M.
+                    </p>
+                </div>
+
             
             
-            MARQUIS DE BEUVRON
-            Une Giroüete agitée du vent
-            NO MVDO SI NON MUDAN
-            Quelque soit l'inconstance de la giroüete, 
+            <div type="personnage" xml:id="p-MARQUIS DE BEUVRON">
+                            
+                    <head> MARQUIS DE BEUVRON </head>
+                    
+                    <figure xml:id="img-MARQUIS DE BEUVRON">
+                        <graphic url="img/0509.png"/>
+                        <figDesc> Une Giroüete agitée du vent </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> Une Giroüete agitée du vent </q>
+                    <p type="description">
+                        Quelque soit l'inconstance de la giroüete, 
             elle ne change point toutesfois de situation,
             à moins que le vent qu’elle est forcée
             d’imiter, n’en ait auparavant changé; Le
             Chevalier proteste qu’aussi ne changera-il
             jamais, à moins que sa Maîtresse ne change
             la premiere.
+                    </p>
+                </div>
             
             
-            MARQUIS DE TURY
-            Une Aigle qui vole vers le Soleil
-            GOZEN LA VISTA, QUEMEN LAS PLUMAS
-            Le plaisir que l’Aigle trouve à regarder
+            
+            
+            <div type="personnage" xml:id="p-REMPLACER">
+                            
+                    <head> REMPLACER </head>
+                    
+                    <figure xml:id="img-REMPLACER">
+                        <graphic url="img/0510.png"/>
+                        <figDesc> Une Aigle qui vole vers le Soleil </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> GOZEN LA VISTA, QUEMEN LAS PLUMAS </q>
+                    <p type="description">
+                        Le plaisir que l’Aigle trouve à regarder
             le Soleil, le charme tellement qu’il ne s’apperçoit 
             pas que le feu se prend à ses plumes,
             ce qui represente bien l’ardeur d’un cœur
             passioné qui veut bien étre embrasé des
             beaux yeux qu’il aime, pourveu qu’il ait le
             plaifir de lesvor.
+                    </p>
+                </div>
             
             
-            DUC DE BRISSAC
-            Un petit Palmier parmy plusieurs autres grands
-            AEQUABO SI FAVEAS
-            Si les regards du Soleil font l’accroissement 
+            
+            
+            
+            <div type="personnage" xml:id="p-DUC DE BRISSAC">
+                            
+                    <head> DUC DE BRISSAC </head>
+                    
+                    <figure xml:id="img-DUC DE BRISSAC">
+                        <graphic url="img/0511.png"/>
+                        <figDesc> Un petit Palmier parmy plusieurs autres grands </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> AEQUABO SI FAVEAS </q>
+                    <p type="description">
+                        Si les regards du Soleil font l’accroissement 
             des Arbres, ceux du Prince ne contribüent 
             pas moins à élever le courage et
             la fortune de ceux qui le servent, et c’est
@@ -192,6 +312,13 @@
             promet d’égaler dans peu les grandes
             actions de tous ces Ancestres, s’il est regardé 
             favorablement de sa Majesté.
+                    </p>
+                </div>
+            
+            
+            
+            
+            
             </div>
             
         </body>

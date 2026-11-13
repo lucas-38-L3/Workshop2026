@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Carrousel de 1662 : devises et emblèmes</title>
+      <link rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+      <aside id="arbre" aria-label="Sélection">
+         <h1>Carrousel de 1662</h1>
+         <p class="retour"><a href="index.html">Présentation du texte</a></p>
+         <p class="aide">Cocher un quadrille ou un cavalier pour ne garder les cartes correspondantes</p><button type="button" id="tout">Tout afficher</button><details open style="--couleur:#9b2335">
+            <summary><label><input type="checkbox" class="q" value="q-romains">Romains</label></summary>
+            <ul>
+               <li><label><input type="checkbox" class="p" value="p-roi" data-parent="q-romains">DU ROY</label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedevivonne" data-parent="q-romains">COMTE DE VIVONNE</label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedesaintagnan" data-parent="q-romains">COMTE DE SAINT-AGNAN</label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedenavailles" data-parent="q-romains">COMTE DE NAVAILLES</label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedarmagnac" data-parent="q-romains"> COMTE D'ARMAGNAC </label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedulude" data-parent="q-romains"> COMTE DU LUDE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedelouvigny" data-parent="q-romains"> COMTE DE LOUVIGNY </label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedelafeuillade" data-parent="q-romains"> COMTE DE LA FEUILLADE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisdevillequier" data-parent="q-romains"> MARQUIS DE VILLEQUIER </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisderichelieu" data-parent="q-romains"> MARQUIS DE RICHELIEU </label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtededuras" data-parent="q-romains"> COMTE DE DURAS </label></li>
+            </ul>
+         </details>
+         <details open style="--couleur:#2f6f8f">
+            <summary><label><input type="checkbox" class="q" value="q-persans">Persans</label></summary>
+            <ul>
+               <li><label><input type="checkbox" class="p" value="p-monsieur" data-parent="q-persans"> DE MONSIEUR </label></li>
+               <li><label><input type="checkbox" class="p" value="p-villeroy" data-parent="q-persans"> MARQUIS DE VILLEROY </label></li>
+               <li><label><input type="checkbox" class="p" value="p-plessis" data-parent="q-persans">COMTE DU PLESSIS</label></li>
+               <li><label><input type="checkbox" class="p" value="p-bellefond" data-parent="q-persans">MARQUIS DE BELLEFOND</label></li>
+               <li><label><input type="checkbox" class="p" value="p-rohan" data-parent="q-persans">CHEVALIER DE ROHAN</label></li>
+               <li><label><input type="checkbox" class="p" value="p-lislebonne" data-parent="q-persans">COMTE DE L’ISLEBONNE</label></li>
+               <li><label><input type="checkbox" class="p" value="p-marsillac" data-parent="q-persans">PRINCE DE MARSILLAC</label></li>
+               <li><label><input type="checkbox" class="p" value="p-foix" data-parent="q-persans">COMTE DE FOIX</label></li>
+               <li><label><input type="checkbox" class="p" value="p-clere" data-parent="q-persans">COMTE DE CLERE</label></li>
+               <li><label><input type="checkbox" class="p" value="p-vaillac" data-parent="q-persans">COMTE DE VAILLAC</label></li>
+               <li><label><input type="checkbox" class="p" value="p-dilliers" data-parent="q-persans">COMTE D’ILLIERS</label></li>
+            </ul>
+         </details>
+         <details open style="--couleur:#5b7f3a">
+            <summary><label><input type="checkbox" class="q" value="q-turcs">Turcs</label></summary>
+            <ul>
+               <li><label><input type="checkbox" class="p" value="p-conde" data-parent="q-turcs"> PRINCE DE CONDE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-desery" data-parent="q-turcs"> COMTE DE SERY </label></li>
+               <li><label><input type="checkbox" class="p" value="p-desoyecourt" data-parent="q-turcs"> MARQUIS DE SOYECOURT </label></li>
+               <li><label><input type="checkbox" class="p" value="p-desault" data-parent="q-turcs"> COMTE DE SAULT </label></li>
+               <li><label><input type="checkbox" class="p" value="p-debovillon" data-parent="q-turcs"> DUC DE BOVILLON </label></li>
+               <li><label><input type="checkbox" class="p" value="p-decharmasel" data-parent="q-turcs"> MARQUIS DE CHARMASEL </label></li>
+               <li><label><input type="checkbox" class="p" value="p-degamache" data-parent="q-turcs"> MARQUIS DE GAMACHE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-debethunes" data-parent="q-turcs"> CHEVALIER DE BETHUNES </label></li>
+               <li><label><input type="checkbox" class="p" value="p-depeguilin" data-parent="q-turcs"> MARQUIS DE PEGUILIN </label></li>
+               <li><label><input type="checkbox" class="p" value="p-decoaslin" data-parent="q-turcs"> MARQUIS DE COASLIN </label></li>
+               <li><label><input type="checkbox" class="p" value="p-deluxembourg" data-parent="q-turcs"> DUC DE LVXEMBOVRG </label></li>
+            </ul>
+         </details>
+         <details open style="--couleur:#b5782a">
+            <summary><label><input type="checkbox" class="q" value="q-indiens">Indiens</label></summary>
+            <ul>
+               <li><label><input type="checkbox" class="p" value="p-anguien" data-parent="q-indiens"> DUC D’ANGUIEN </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisdecanaples" data-parent="q-indiens"> MARQUIS DE CANAPLES </label></li>
+               <li><label><input type="checkbox" class="p" value="p-plessis2" data-parent="q-indiens"> COMTE DU PLESSIS </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisdegenlis" data-parent="q-indiens"> MARQUIS DE GENLIS </label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtedeguitaut" data-parent="q-indiens"> COMTE DE GUITAUT </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisdemonpesat" data-parent="q-indiens"> MARQUIS DE MONPESAT </label></li>
+               <li><label><input type="checkbox" class="p" value="p-ducdenevers" data-parent="q-indiens"> DUC DE NEVERS </label></li>
+               <li><label><input type="checkbox" class="p" value="p-comtederoye" data-parent="q-indiens"> COMTE DE ROYE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisd'humieres" data-parent="q-indiens"> MARQUIS D'HUMIERES </label></li>
+               <li><label><input type="checkbox" class="p" value="p-ducdesully" data-parent="q-indiens"> DUC DE SULLY </label></li>
+               <li><label><input type="checkbox" class="p" value="p-marquisd'ovailly" data-parent="q-indiens"> MARQUIS D'OVAILLY </label></li>
+            </ul>
+         </details>
+         <details open style="--couleur:#5e4b8b">
+            <summary><label><input type="checkbox" class="q" value="q-americains">Américains</label></summary>
+            <ul>
+               <li><label><input type="checkbox" class="p" value="p-guise" data-parent="q-americains"> DUC DE GUYSE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-CHEVALIER D’HARCOURT" data-parent="q-americains"> CHEVALIER D’HARCOURT </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQVIS DE ROCHEFORT" data-parent="q-americains"> MARQVIS DE ROCHEFORT </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQUIS DE PLUMARTIN" data-parent="q-americains"> MARQUIS DE PLUMARTIN </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQUIS DE LA CHASTRE" data-parent="q-americains"> MARQUIS DE LA CHASTRE </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQUIS DE RAGNY" data-parent="q-americains"> MARQUIS DE RAGNY </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQUIS DE MIREPOIX" data-parent="q-americains"> MARQUIS DE MIREPOIX </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQUIS DE VERVINS" data-parent="q-americains"> MARQUIS DE VERVINS </label></li>
+               <li><label><input type="checkbox" class="p" value="p-MARQUIS DE BEUVRON" data-parent="q-americains"> MARQUIS DE BEUVRON </label></li>
+               <li><label><input type="checkbox" class="p" value="p-REMPLACER" data-parent="q-americains"> REMPLACER </label></li>
+               <li><label><input type="checkbox" class="p" value="p-DUC DE BRISSAC" data-parent="q-americains"> DUC DE BRISSAC </label></li>
+            </ul>
+         </details>
+      </aside>
+      <main id="cartes">
+         <article class="carte" id="p-roi" data-quadrille="q-romains" data-personnage="p-roi" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0101.png" alt="Un Soleil"><span class="devise"> UT VIDI, VICI</span><span class="nom">DU ROY</span></span><span class="face verso"><span class="nom">DU ROY</span><span class="para"> Il seroit mal-aisé de trouver un Corps de Devise qui
+                     convint mieux au Roy que celuy du Soleil, veu le nombre presque infiny de
+                     convenances illustres qui se rencontrent entre ce Grand Prince, et ce bel
+                     Astre; Mais sans doute qu’une des plus remarquables, et qui est touchée par
+                     cette Devise, est que comme le Soleil n’a qu’à se faire voir pour dissiper
+                     les tenebres, ainsi ce Grand Monarque n’a besoin que de sa presence pour
+                     vaincre ses ennemis. Ce qui est heureusement exprimé par ces mots, UT VIDI,
+                     VICI, qui font allusion à ce mot de Jules Cesar, veni, vidi, vici. </span></span></button></article>
+         <article class="carte" id="p-comtedevivonne" data-quadrille="q-romains" data-personnage="p-comtedevivonne" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0102.png" alt="Un Miroir ardant"><span class="devise">TUA MUNERA JACTO</span><span class="nom">COMTE DE VIVONNE</span></span><span class="face verso"><span class="nom">COMTE DE VIVONNE</span><span class="para"> Le Miroir ardant loin de renfermer en luy-méme la lumiere
+                     du Soleil, la refléchit, et la renvoye de toutes parts avec encore plus de
+                     force qu’elle ne luy est envoyée, et de cette sorte il est le symbole
+                     parfait de la reconnoissance de ce Chevalier pour les bienfaits qu’il a
+                     receus de Sa Majesté, qu’il s’efforce de faire éclater en tous lieux et en
+                     toutes rencontres. </span></span></button></article>
+         <article class="carte" id="p-comtedesaintagnan" data-quadrille="q-romains" data-personnage="p-comtedesaintagnan" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0103.png" alt="Un Laurier exposé au Soleil"><span class="devise">SOLI</span><span class="nom">COMTE DE SAINT-AGNAN</span></span><span class="face verso"><span class="nom">COMTE DE SAINT-AGNAN</span><span class="para"> Le Laurier est le symbole de la Victoire, qui a cela de
+                     commun avec ce Chevalier, qu’elle ne veut appartenir qu’au Roy seul, et ne
+                     se ranger jamais que de son party. </span></span></button></article>
+         <article class="carte" id="p-comtedenavailles" data-quadrille="q-romains" data-personnage="p-comtedenavailles" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0104.png" alt=" Une Aigle regardant le Soleil "><span class="devise"> PROBASTI </span><span class="nom">COMTE DE NAVAILLES</span></span><span class="face verso"><span class="nom">COMTE DE NAVAILLES</span><span class="para"> On sçait que les Aigles éprouvent leurs Aiglons en les
+                     exposant aux rayons du Soleil, et que ceux-là seulement sont reputez estre
+                     veritablement de leur race qui en peuvent supporter l’éclat sans siller les
+                     yeux. Ce Chevalier prétend de méme que les grands et illustres employs dont
+                     le Roy l’a honoré, et qu’il a soûtenus avec gloire, sont des marques
+                     assurées de son merite et de sa fidelité. </span></span></button></article>
+         <article class="carte" id="p-comtedarmagnac" data-quadrille="q-romains" data-personnage="p-comtedarmagnac" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0105.png" alt=" Une Couronne de Laurier "><span class="devise"> HIC LABOR, HIC MERCES </span><span class="nom"> COMTE D'ARMAGNAC </span></span><span class="face verso"><span class="nom"> COMTE D'ARMAGNAC </span><span class="para"> Ce Chevalier se promet que la Victoire representée par
+                     cette Couronne, estant le but de tous ses travaux, en sera pareillement
+                     l’issuë et la recompense. </span></span></button></article>
+         <article class="carte" id="p-comtedulude" data-quadrille="q-romains" data-personnage="p-comtedulude" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0106.png" alt=" Un Cadran exposé au Soleil "><span class="devise"> TE SINE NOMEN INERS </span><span class="nom"> COMTE DU LUDE </span></span><span class="face verso"><span class="nom"> COMTE DU LUDE </span><span class="para"> Quelque juste et bien fait que soit un Cadran, il ne peut
+                     estre utile s’il n’est regardé du Soleil. Ce Chevalier reconnoit de même que
+                     quelque merite qu’il puisse avoir en sa personne, il ne peut devenir
+                     considerable qu’autant qu’il plaira à sa Majesté de le considerer, et de luy
+                     donner moyen de mettre en usage les divers talens qu’il possede. </span></span></button></article>
+         <article class="carte" id="p-comtedelouvigny" data-quadrille="q-romains" data-personnage="p-comtedelouvigny" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0107.png" alt=" Un Javelot fiché dans la terre "><span class="devise"> CERTASSE JUVABIT </span><span class="nom"> COMTE DE LOUVIGNY </span></span><span class="face verso"><span class="nom"> COMTE DE LOUVIGNY </span><span class="para"> Comme un javelot est toûjours prest au combat; de même ce
+                     Chevalier assure qu’il ne demande autre chose que d’étre employé aux nobles
+                     exercices de la guerre. </span></span></button></article>
+         <article class="carte" id="p-comtedelafeuillade" data-quadrille="q-romains" data-personnage="p-comtedelafeuillade" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0108.png" alt=" Un Girasol tourné vers le Soleil "><span class="devise"> UNI </span><span class="nom"> COMTE DE LA FEUILLADE </span></span><span class="face verso"><span class="nom"> COMTE DE LA FEUILLADE </span><span class="para"> L'inclination que le Girasol témoigne pour le Soleil est
+                     connuë de tout le monde; et c’est par ce symbole que le Chevalier qui le
+                     prend pour sa Devise a voulu marquer la fidelité inviolable, avec laquelle
+                     il veut s’attacher à son Prince, et n’avoir jamais d’autres mouvemens que
+                     les siens. </span></span></button></article>
+         <article class="carte" id="p-marquisdevillequier" data-quadrille="q-romains" data-personnage="p-marquisdevillequier" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0109.png" alt=" Une Aigle qui plane "><span class="devise"> UNI MILITAT ASTRO </span><span class="nom"> MARQUIS DE VILLEQUIER </span></span><span class="face verso"><span class="nom"> MARQUIS DE VILLEQUIER </span><span class="para"> L’Aigle accoûtumée à porter le foudre de Jupiter ne
+                     voudroit point se charger des Armes d’une autre Divinité. Ce Chevalier
+                     assure de même qu’il ne veut étre occupé qu’à la défense et à la garde de
+                     son Prince qu’il regarde comme le seul Astre d’où dépend toute sa fortune.
+                     </span></span></button></article>
+         <article class="carte" id="p-marquisderichelieu" data-quadrille="q-romains" data-personnage="p-marquisderichelieu" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0110.png" alt=" Une Fusée volante "><span class="devise"> ARDO PARA SUBIR </span><span class="nom"> MARQUIS DE RICHELIEU </span></span><span class="face verso"><span class="nom"> MARQUIS DE RICHELIEU </span><span class="para"> Comme le feu qui brûle une fusée volante est cause de son
+                     élevation, on peut dire de même que l’amour de la gloire, dont l’ame de ce
+                     Chevalier est embrasée, en luy faisant produire de grandes actions, sera
+                     cause de son élevation aux plus grands et plus illustres emplois. </span></span></button></article>
+         <article class="carte" id="p-comtededuras" data-quadrille="q-romains" data-personnage="p-comtededuras" style="--couleur:#9b2335"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Romains</span><img src="img/0111.png" alt=" Un Lion regardant un Soleil "><span class="devise"> DE TUOI SGUARDI MIO ARDORE </span><span class="nom"> COMTE DE DURAS </span></span><span class="face verso"><span class="nom"> COMTE DE DURAS </span><span class="para"> Le Lion qui ne se plaît que dans les païs extremement
+                     chauds, est redevable de l'ardeur de son courage à celle des rayons du
+                     Soleil dont il est échauffé: Ainsi ce Chevalier déclare que sa valeur
+                     s’augmente et se redouble par les regards favorables de son Prince. </span></span></button></article>
+         <article class="carte" id="p-monsieur" data-quadrille="q-persans" data-personnage="p-monsieur" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0201.png" alt=" Une Lune en son plein "><span class="devise"> UNO SOLE MINOR </span><span class="nom"> DE MONSIEUR </span></span><span class="face verso"><span class="nom"> DE MONSIEUR </span><span class="para">
+                     Comme la Lune particulierement en son plein surpasse de beaucoup les autres Astres
+                     en grandeur et en lumiere;
+                     en sorte qu’il n’y a que le Soleil qui ait en cela quelque avantage sur elle, on peut
+                     dire, que c’est avec
+                     beaucoup de justice que Monsieur Frere Unique du Roy l’a prise pour le corps de sa
+                     Devise, puis qu’il ne voit
+                     point de rang au dessus du sien que celuy de sa Majesté. Mais elle luy convient encore
+                     particulierement en cette
+                     rencontre, parce qu’il represente le Roy de Perse, qui s’estimant le plus grand de
+                     tous les Roys, ne reconnoissoit 
+                     au dessus de luy que le Soleil qu’il adoroit.
+                     </span></span></button></article>
+         <article class="carte" id="p-villeroy" data-quadrille="q-persans" data-personnage="p-villeroy" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0202.png" alt=" Un Dard entouré de Laurier "><span class="devise"> NEC SINE GLORIA CADET </span><span class="nom"> MARQUIS DE VILLEROY </span></span><span class="face verso"><span class="nom"> MARQUIS DE VILLEROY </span><span class="para">
+                     De même que ce Dard est toûjours environné
+                     de Laurier, quelque part qu’on le lance,
+                     soit qu’il frappe au but, soit même qu’il
+                     tombe à terre: Ainsi ce Chevalier a voulu
+                     faire entendre que quelque expedition
+                     qu’il entreprenne, elle sera toûjours accompagnée
+                     de la gloire dont le Laurier est
+                     le symbole, soit qu’elle luy reüssisse avantageusement,
+                     soit méme qu’il y perde la vie.
+                     </span></span></button></article>
+         <article class="carte" id="p-plessis" data-quadrille="q-persans" data-personnage="p-plessis" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0203.png" alt=""><span class="devise">AB OBICE MAJOR</span><span class="nom">COMTE DU PLESSIS</span></span><span class="face verso"><span class="nom">COMTE DU PLESSIS</span><span class="para">
+                     L’activité et la violence du feu s’augmentent
+                     par la resistance qu’il rencontre, et
+                     plus il est resserré, plus il éclate; Il en est de
+                     même d’un grand courage, qui sent redoubler
+                     son ardeur, soit dans la guerre, soit
+                     dans l’amour, par les obstacles et les difficultez
+                     qui se presentent.
+                     </span></span></button></article>
+         <article class="carte" id="p-bellefond" data-quadrille="q-persans" data-personnage="p-bellefond" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0204.png" alt=""><span class="devise">UNA SIN MAS</span><span class="nom">MARQUIS DE BELLEFOND</span></span><span class="face verso"><span class="nom">MARQUIS DE BELLEFOND</span><span class="para">
+                     Comme une Abeille, aprés avoir consideré
+                     toutes les fleurs d’un Parterre, enfin
+                     s’attache à une seule; De même ce Chevalier
+                     fait entendre par cette Devise, qu’encore
+                     qu’il ait beaucoup de civilité, et d’inclination 
+                     pour toutes les Dames; Il y en a
+                     une neantmoins qui a toutes ses affections,
+                     et à laquelle son cœur est particulierement
+                     attaché.
+                     </span></span></button></article>
+         <article class="carte" id="p-rohan" data-quadrille="q-persans" data-personnage="p-rohan" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0205.png" alt="Des Lauriers sur des charbons ardans"><span class="devise">ARDER Y CALLAR ?</span><span class="nom">CHEVALIER DE ROHAN</span></span><span class="face verso"><span class="nom">CHEVALIER DE ROHAN</span><span class="para">
+                     Ce feu peut representer ou celuy de la
+                     gloire ou celuy de l’amour, mais de quelque
+                     sorte qu’on l’interprete, ce Chevalier declare
+                     qu’il luy est aussi impossible d’en brûler
+                     sans faire du bruit, soit en faisant parler
+                     de luy par ses belles actions, soit en parlant
+                     de son ardeur à celle qui en est la cause, qu’il
+                     est mal aisé que des Lauriers se laissent consumer
+                     par le feu qui les brûle sans faire
+                     beaucoup de bruit et beaucoup d’éclat.
+                     </span></span></button></article>
+         <article class="carte" id="p-lislebonne" data-quadrille="q-persans" data-personnage="p-lislebonne" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0206.png" alt="Un flambeau en plein jour"><span class="devise">NOLLEM CESSISSE MINORI</span><span class="nom">COMTE DE L’ISLEBONNE</span></span><span class="face verso"><span class="nom">COMTE DE L’ISLEBONNE</span><span class="para">
+                     Comme il n’y a que la seule lumiere du
+                     Soleil qui soit capable d’effacer celle d’un
+                     flambleau qui éclate durant la nuit quelque
+                     autre Astre qui brille dans le Ciel. Ce
+                     Chevalier prétend de même que la gloire
+                     de sa Majesté efface à la verité la sienne:
+                     mais qu’il se sent enflamé d’un si grand desir
+                     d’en acquerir, qu’il ne voudroit pas le
+                     ceder à pas un autre.   
+                     </span></span></button></article>
+         <article class="carte" id="p-marsillac" data-quadrille="q-persans" data-personnage="p-marsillac" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0207.png" alt="Une fournaise jettant une grande flâme"><span class="devise">PIU NE COPRE, CHE NE SCOPRE</span><span class="nom">PRINCE DE MARSILLAC</span></span><span class="face verso"><span class="nom">PRINCE DE MARSILLAC</span><span class="para">
+                     Quelque grande que soit l’ardeur des
+                     vrays Amans, leur discretion doit étre encore
+                     plus grande, et cacher plus de la
+                     moitié de leur passion. C’est ce qu’a voulu
+                     faire entendre ce Chevalier par cette
+                     fournaise, dont l’on ne peut empécher qu’il
+                     ne sorte quelque flame: mais qui en renferme
+                     bien plus qu’elle n’en laisse paroître.   
+                     </span></span></button></article>
+         <article class="carte" id="p-foix" data-quadrille="q-persans" data-personnage="p-foix" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0208.png" alt="Un Ecu plein"><span class="devise">COSI UVOL AMORE</span><span class="nom">COMTE DE FOIX</span></span><span class="face verso"><span class="nom">COMTE DE FOIX</span><span class="para">
+                     La plus-part des Amans témoignent
+                     leur passion dans leurs Devises, et publient
+                     bien souvent ce qu’ils devroient cacher:
+                     Mais ce Chevalier aimant à faire voir son
+                     amour par sa discretion, dit que ce même
+                     amour luy défend d’en faire rien paroître.   
+                     </span></span></button></article>
+         <article class="carte" id="p-clere" data-quadrille="q-persans" data-personnage="p-clere" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0209.png" alt="Une grande flâme"><span class="devise">FOELICITER AUDAX</span><span class="nom">COMTE DE CLERE</span></span><span class="face verso"><span class="nom">COMTE DE CLERE</span><span class="para">
+                     La flâme s'éleve sans cesse, et par une
+                     heureuse hardiesse prend toûjours le dessus;
+                     A son imitation ce Chevalier espere
+                     avoir toûjours avantage et sur ses rivaux
+                     et sur ses ennemis.
+                     </span></span></button></article>
+         <article class="carte" id="p-vaillac" data-quadrille="q-persans" data-personnage="p-vaillac" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0210.png" alt="Une grande flâme"><span class="devise">NE FREN NE TEMPO</span><span class="nom">COMTE DE VAILLAC</span></span><span class="face verso"><span class="nom">COMTE DE VAILLAC</span><span class="para">
+                     Comme la flâme surmonte tous les obstacles 
+                     qu’elle rencontre, et qu’elle s’augmente 
+                     avec le temps au lieu de diminuer
+                     tant qu’elle trouve de l’aliment. Ainsi
+                     l’ardeur d’un grand courage se redouble
+                     par les difficultez, et par le temps quand il
+                     luy fournit de nouvelles occasions de se signaler.
+                     </span></span></button></article>
+         <article class="carte" id="p-dilliers" data-quadrille="q-persans" data-personnage="p-dilliers" style="--couleur:#2f6f8f"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Persans</span><img src="img/0211.png" alt="Une fusée volante"><span class="devise">POCO DURI PUR CHE M'INALZI</span><span class="nom">COMTE D’ILLIERS</span></span><span class="face verso"><span class="nom">COMTE D’ILLIERS</span><span class="para">
+                     Une fusée volante ne dure pas longtemps, 
+                     mais elle s’éleve toûjours et avec
+                     éclat tant qu’elle dure. Ce Chevalier qui
+                     la prend pour sa Devise, souhaite de luy
+                     ressembler, consentant que sa vie soit de
+                     peu de durée, pourveu qu’elle soit éclatante,
+                     et qu’elle aille toûjours s’élevant jusqu'au 
+                     comble de la gloire.
+                     </span></span></button></article>
+         <article class="carte" id="p-conde" data-quadrille="q-turcs" data-personnage="p-conde" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0301.png" alt=" Un Croissant "><span class="devise"> CRESCIT UT ASPICITUR </span><span class="nom"> PRINCE DE CONDE </span></span><span class="face verso"><span class="nom"> PRINCE DE CONDE </span><span class="para">
+                     Comme le Croissant augmente de plus en plus en lumiere selon qu’il est regardé du
+                     Soleil, ainsi le Prince
+                     qui le prend pour sa Devise, veut faire entendre que tenant du Roy toutes ses grandeurs,
+                     et tout son éclat,
+                     il reconnoit que sa gloire augmentera à proportion des regards favorables qu’il recevra
+                     de sa Majesté.
+                     
+                     </span></span></button></article>
+         <article class="carte" id="p-desery" data-quadrille="q-turcs" data-personnage="p-desery" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0302.png" alt=" Un Arbre chargé de fleurs "><span class="devise"> SPES MODO, MOX FRUCTUS </span><span class="nom"> COMTE DE SERY </span></span><span class="face verso"><span class="nom"> COMTE DE SERY </span><span class="para">
+                     Les fleurs d’un arbre sont comme une
+                     assurance des fruits qu’il doit donner: ce
+                     qui marque tres-bien ce qu’on peut attendre
+                     d’un jeune Chevalier, qui promet dans
+                     peu les fruits d’une valeur consommée,
+                     bien qu’il ne soit encore que dans la premiere 
+                     fleur de son âge.
+                     </span></span></button></article>
+         <article class="carte" id="p-desoyecourt" data-quadrille="q-turcs" data-personnage="p-desoyecourt" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0303.png" alt=" La Toison d’or sur un arbre "><span class="devise"> ORNATQUE, TEGITQUE </span><span class="nom"> MARQUIS DE SOYECOURT </span></span><span class="face verso"><span class="nom"> MARQUIS DE SOYECOURT </span><span class="para">
+                     La Toison d’or servoit d’ornement tout
+                     ensemble, et de défense à l’arbre qu’elle
+                     couvroit, et de cette sorte elle convient
+                     parfaitement au Maistre de la Garderobe,
+                     qui ne se vante pas seulement de parer son
+                     Prince: mais de le défendre aussi en toutes
+                     occasions, au peril de sa vie.
+                     </span></span></button></article>
+         <article class="carte" id="p-desault" data-quadrille="q-turcs" data-personnage="p-desault" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0304.png" alt=" Un jeune Lion "><span class="devise"> PATRIOS ASSURGIT IN UNGUES </span><span class="nom"> COMTE DE SAULT </span></span><span class="face verso"><span class="nom"> COMTE DE SAULT </span><span class="para">
+                     Il est aisé de voir par cette Devise que
+                     le Chevalier qui la porte, veut égaler
+                     la vertu de ses ayeuls, et imiter le jeune Lyon,
+                     qui donne déjà des marques
+                     qu’il se rendra avec l’âge aussi redouté que
+                     ses peres.
+                     </span></span></button></article>
+         <article class="carte" id="p-debovillon" data-quadrille="q-turcs" data-personnage="p-debovillon" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0305.png" alt=" Un Girasol "><span class="devise"> MIHI IUS CONCURRERE SOLI </span><span class="nom"> DUC DE BOVILLON </span></span><span class="face verso"><span class="nom"> DUC DE BOVILLON </span><span class="para">
+                     Cette Plante a l’avantage de suivre en
+                     quelque sorte le cours du Soleil; ainsi ce
+                     Chevalier ne pouvoit choisir un corps de
+                     Devise, qui marquât plus précisément
+                     son attachement à son Prince, et son exactitude 
+                     à suivre tous ses Commandemens.
+                     </span></span></button></article>
+         <article class="carte" id="p-decharmasel" data-quadrille="q-turcs" data-personnage="p-decharmasel" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0306.png" alt=" Une Couronne de Palme "><span class="devise"> NON JUVAT EX FACILI </span><span class="nom"> MARQUIS DE CHARMASEL </span></span><span class="face verso"><span class="nom"> MARQUIS DE CHARMASEL </span><span class="para">
+                     Ce Chevalier déclare qu’il aime les
+                     Couronnes, non pas celles qui ne sont
+                     composées que de fleurs faciles à trouver:
+                     mais bien de celles qu’on ne sçauroit cueillir
+                     qu’avec difficulté et avec peril , comme
+                     la Palme et les Lauriers.
+                     </span></span></button></article>
+         <article class="carte" id="p-degamache" data-quadrille="q-turcs" data-personnage="p-degamache" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0307.png" alt=" Un Palmier panché vers un autre "><span class="devise"> SOLI SUCCUMBIT AMORI </span><span class="nom"> MARQUIS DE GAMACHE </span></span><span class="face verso"><span class="nom"> MARQUIS DE GAMACHE </span><span class="para">
+                     Le Palmier n’est jamais accablé sous le
+                     poids d’aucun fardeau, il s’éleve plus on le
+                     charge; que si quelquefois il abbaisse sa cime
+                     et ses branches, ce n’est que pour s’approcher
+                     davantage de l’arbre, dont il est
+                     amoureux, enquoy il est vray symbole
+                     d’un grand courage, qui ne peut estre fléchy
+                     que par la douceur, et vaincu que par
+                     l’amour.
+                     </span></span></button></article>
+         <article class="carte" id="p-debethunes" data-quadrille="q-turcs" data-personnage="p-debethunes" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0308.png" alt=" Un Miroir ardent "><span class="devise"> DE SU LUZ MI FUEGO </span><span class="nom"> CHEVALIER DE BETHUNES </span></span><span class="face verso"><span class="nom"> CHEVALIER DE BETHUNES </span><span class="para">
+                     La gloire du Roy est une lumiere éclatante,
+                     qui allume dans le cœur de ce Chevalier
+                     une ardeur incroyable pour son service,
+                     et qui ressemble en cela aux rayons
+                     du Soleil qui produisent du feu, étans receus
+                     et refléchis par le miroir ardent.
+                     </span></span></button></article>
+         <article class="carte" id="p-depeguilin" data-quadrille="q-turcs" data-personnage="p-depeguilin" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0309.png" alt=" Un Girasol qui regarde un Soleil "><span class="devise"> NE DESPICE AMANTEM </span><span class="nom"> MARQUIS DE PEGUILIN </span></span><span class="face verso"><span class="nom"> MARQUIS DE PEGUILIN </span><span class="para">
+                     
+                     Le Girasol par le soin qu’il a de suivre
+                     le Soleil, semble le conjurer sans cesse de ne
+                     point détourner ses regards de dessus luy;
+                     et en cela il est le symbole d’un Chevalier
+                     fidele à sa Maîtresse, dont il souhaite sur
+                     toute chose d’étre regardé sans cesse et favorablement.
+                     </span></span></button></article>
+         <article class="carte" id="p-decoaslin" data-quadrille="q-turcs" data-personnage="p-decoaslin" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0310.png" alt=" Un Javelot "><span class="devise"> IN VAN NON MAI </span><span class="nom"> MARQUIS DE COASLIN </span></span><span class="face verso"><span class="nom"> MARQUIS DE COASLIN </span><span class="para">
+                     Le javelot que l’Aurore donna à Cephale
+                     ne manquoit jamais sa proye, et c’est
+                     sans doute à celuy-là que cette Devise fait
+                     allusion : en sorte que ce Chevalier prétend
+                     n’étre pas moins seur de son coup,
+                     que Cephale l’étoit autrefois.
+                     </span></span></button></article>
+         <article class="carte" id="p-deluxembourg" data-quadrille="q-turcs" data-personnage="p-deluxembourg" style="--couleur:#5b7f3a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Turcs</span><img src="img/0311.png" alt=" Une Massuë "><span class="devise"> MAGNA MAJOR FAMA </span><span class="nom"> DUC DE LVXEMBOVRG </span></span><span class="face verso"><span class="nom"> DUC DE LVXEMBOVRG </span><span class="para">
+                     Ce Chevalier prétend que la renommée
+                     n’égalera jamais ses actions, de méme
+                     qu’elle n’a jamais égalé celles d’Hercule;
+                     Plusieurs desquelles sont demeurées ensevelies
+                     dans l’oubly.
+                     </span></span></button></article>
+         <article class="carte" id="p-anguien" data-quadrille="q-indiens" data-personnage="p-anguien" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0401.png" alt=" Une grande Etoille "><span class="devise"> MAGNO DE LUMINE LUMEN </span><span class="nom"> DUC D’ANGUIEN </span></span><span class="face verso"><span class="nom"> DUC D’ANGUIEN </span><span class="para">
+                     Le Soleil étant l'unique source de toutes les Lumieres, les plus grandes Etoilles
+                     ont cét avantage d’en recevoir 
+                     une plus abondante effusion que les autres, et c’est par cette comparaison que le
+                     Prince qui prend
+                     pour sa Devise l’Etoille du poinct du jour, la plus brillante de toutes, se glorifie
+                     de recevoir du Roy, plus
+                     de grace, et plus de faveur, que tous les autres Astres qui l’environnent.
+                     
+                     </span></span></button></article>
+         <article class="carte" id="p-marquisdecanaples" data-quadrille="q-indiens" data-personnage="p-marquisdecanaples" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0402.png" alt=" Un But entouré de plusieurs fléches, et une dedans "><span class="devise"> NECNULLA, NEC OMNIS</span><span class="nom"> MARQUIS DE CANAPLES </span></span><span class="face verso"><span class="nom"> MARQUIS DE CANAPLES </span><span class="para">
+                     Cette Devise peut signifier que comme
+                     toutes les beautez n’ont pas touché le cœur
+                     de ce Chevalier, il ne peut pas dire aussi
+                     qu’aucune ne l’ait frappé: Ou bien elle peut
+                     donner à entendre, que si toutes ses pretensions 
+                     n’ont reüssi, au moins quelques-unes
+                     ont eû une issuë favorable.
+                     </span></span></button></article>
+         <article class="carte" id="p-plessis2" data-quadrille="q-indiens" data-personnage="p-plessis2" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0403.png" alt=" Une Fléche "><span class="devise"> MARTE LO MANDI, O AMORE</span><span class="nom"> COMTE DU PLESSIS </span></span><span class="face verso"><span class="nom"> COMTE DU PLESSIS </span><span class="para">
+                     La Flêche étant une arme qui sert également 
+                     à Mars ou à l’Amour, elle represente 
+                     un Chevalier également Vaillant et
+                     Amoureux, et qui est prest d’affronter tous
+                     les hazards, où l’une et l’autre de ces Divinitez 
+                     l’appelleront.
+                     </span></span></button></article>
+         <article class="carte" id="p-marquisdegenlis" data-quadrille="q-indiens" data-personnage="p-marquisdegenlis" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img-0404.png" alt=" Un Trophée sur une lance composé d'armes, de masques, de flambeaux, et autres instrumens de galanteries "><span class="devise"> IUNCTA DECENT</span><span class="nom"> MARQUIS DE GENLIS </span></span><span class="face verso"><span class="nom"> MARQUIS DE GENLIS </span><span class="para"> 
+                     Comme le mélange de ces divers instrumens 
+                     dont l'usage est si different, compose
+                     un trophée agreable à la veüe. Il en est de
+                     même d’un Chevalier, qui sçait joindre
+                     aux exercices penibles de la guerre, les jeux
+                     agreables de la Paix.
+                     </span></span></button></article>
+         <article class="carte" id="p-comtedeguitaut" data-quadrille="q-indiens" data-personnage="p-comtedeguitaut" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img-0405.png" alt=" Un Girasol "><span class="devise"> NOTA FIDES </span><span class="nom"> COMTE DE GUITAUT </span></span><span class="face verso"><span class="nom"> COMTE DE GUITAUT </span><span class="para">
+                     Soit que le Soleil represente la beauté
+                     dont ce Chevalier est Amoureux, soit qu’il
+                     signifie son Prince, il déclare par cette Devise,
+                     que sa fidelité pour son Maître ou
+                     pour sa Maîtresse, n’est pas moins constante,
+                     ny moins éprouvée que celle du Girasol,
+                     pour le bel Astre qu’il suit toûjours.
+                     </span></span></button></article>
+         <article class="carte" id="p-marquisdemonpesat" data-quadrille="q-indiens" data-personnage="p-marquisdemonpesat" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img-0406.png" alt=" Un Trophée d'Armes du Carrousel "><span class="devise"> NON FICTI PRAEMINA MARTIS </span><span class="nom"> MARQUIS DE MONPESAT </span></span><span class="face verso"><span class="nom"> MARQUIS DE MONPESAT </span><span class="para">
+                     Le Chevalier qui porte cette Devise,
+                     veut donner à entendre que quelque glorieux 
+                     qu’il soit, de remporter le prix dans 
+                     des combats de Barriere, tels que ceux du
+                     Carrousel, son ame neantmoins ne peut
+                     étre pleinement satisfaite, qu’en remportant 
+                     le prix d’un combat veritable.
+                     </span></span></button></article>
+         <article class="carte" id="p-ducdenevers" data-quadrille="q-indiens" data-personnage="p-ducdenevers" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0407.png" alt=" Un Phenix exposé au Soleil "><span class="devise"> UNUS CUNCTA MIHI </span><span class="nom"> DUC DE NEVERS </span></span><span class="face verso"><span class="nom"> DUC DE NEVERS </span><span class="para">
+                     Le Soleil est le Pere, la nourriture et
+                     la joye du Phenix, et ce Chevalier qui le
+                     prend pour sa Devise, veut témoigner par
+                     ce symbole, non seulement qu’il tient tout
+                     de sa Majesté: mais aussi qu’elle luy tient
+                     lieu de toutes choses.
+                     
+                     </span></span></button></article>
+         <article class="carte" id="p-comtederoye" data-quadrille="q-indiens" data-personnage="p-comtederoye" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0408.png" alt=" Un Phenix sur un bucher "><span class="devise"> CAUSA BLACET </span><span class="nom"> COMTE DE ROYE </span></span><span class="face verso"><span class="nom"> COMTE DE ROYE </span><span class="para">
+                     Quelque affreuse que soit la mort, le
+                     sujet en est quelquefois si beau, qu’elle
+                     peut étre souhaitable: Et comme le Phenix 
+                     s’y resout sans peine, parce que le Soleil 
+                     en est la cause, ce Chevalier proteste
+                     qu’il la perdroit avec joye, si elle étoit employée 
+                     pour le service de son Maître.
+                     
+                     </span></span></button></article>
+         <article class="carte" id="p-marquisd'humieres" data-quadrille="q-indiens" data-personnage="p-marquisd'humieres" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0409.png" alt=" Plusieurs différentes Couronnes "><span class="devise"> MON QUIERO MENOS </span><span class="nom"> MARQUIS D'HUMIERES </span></span><span class="face verso"><span class="nom"> MARQUIS D'HUMIERES </span><span class="para">
+                     Une seule de ces Couronnes pourroit
+                     satisfaire l’ambition d’un courage mediocre:
+                     mais une ame heroïque aspire à toutes,
+                     et ce Chavalier témoigne qu’il n’y en
+                     a pas une qu’il ne veüille obtenir.
+                     </span></span></button></article>
+         <article class="carte" id="p-ducdesully" data-quadrille="q-indiens" data-personnage="p-ducdesully" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0410.png" alt=" Un Miroir ardent "><span class="devise"> ARDEO UBT ASPICIOR </span><span class="nom"> DUC DE SULLY </span></span><span class="face verso"><span class="nom"> DUC DE SULLY </span><span class="para">
+                     Comme l’ardeur du miroir augmente à
+                     proportion de la lumiere qu’il reçoit du
+                     Soleil , ainsi ce Chevalier assure que son
+                     courage et son amour redoublent, selon
+                     qu’il est regardé de son Prince, ou de sa
+                     Maîtresse.
+                     
+                     </span></span></button></article>
+         <article class="carte" id="p-marquisd'ovailly" data-quadrille="q-indiens" data-personnage="p-marquisd'ovailly" style="--couleur:#b5782a"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Indiens</span><img src="img/0411.png" alt=" Un Rosier et un Soleil "><span class="devise"> RESPICE, FLOREBO </span><span class="nom"> MARQUIS D'OVAILLY </span></span><span class="face verso"><span class="nom"> MARQUIS D'OVAILLY </span><span class="para">
+                     Comme le Rozier dont les boutons sont
+                     prests d’éclore, semble dire au Soleil qu’il
+                     le regarde, et qu’aussi tost il fleurira: ainsi
+                     ce Chevalier qui conçoit de grands desseins 
+                     pour le service de son Prince, ne demande 
+                     que d’en étre consideré, pour faire
+                     de grandes actions qui le couvriront de
+                     gloire.
+                     
+                     </span></span></button></article>
+         <article class="carte" id="p-guise" data-quadrille="q-americains" data-personnage="p-guise" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0501.png" alt=" Un Lion qui terrasse un Tigre "><span class="devise"> ALTIORA PRAESUMO </span><span class="nom"> DUC DE GUYSE </span></span><span class="face verso"><span class="nom"> DUC DE GUYSE </span><span class="para">
+                     Ce Prince a voulu témoigner par sa Devise, que les Courses de Bague, les Joustes,
+                     et les Carrousels,
+                     peuvent bien étre l’objet de ses divertissemens, mais non pas de ses occupations :
+                     et qu’il aspire à la gloire
+                     des plus hautes avantures, et des travaux les plus illustres representez par un Lyon
+                     courageux, qui abat et
+                     terrasse un ennemy digne de luy.
+                     </span></span></button></article>
+         <article class="carte" id="p-CHEVALIER D’HARCOURT" data-quadrille="q-americains" data-personnage="p-CHEVALIER D’HARCOURT" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0502.png" alt=" Une Croix de Lorraine dans un Soleil, qui&#xA;            jette des rayons sur une Croix de Chevalier,&#xA;            et des foudres sur des Croissans "><span class="devise"> HINC LUMEN, HINC FULMINA </span><span class="nom"> CHEVALIER D’HARCOURT </span></span><span class="face verso"><span class="nom"> CHEVALIER D’HARCOURT </span><span class="para">
+                     Le Soleil étant la source de la Lumiere,
+                     et la cause principale des Foudres; ce
+                     Chevalier veut donner à entendre que le
+                     Roy representé par ce Soleil, est celuy de
+                     qui sa Maison et luy tirent toute leur gloire,
+                     et de qui partent les foudres qui doivent 
+                     abatre l’orgueil des Ottomans.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQVIS DE ROCHEFORT" data-quadrille="q-americains" data-personnage="p-MARQVIS DE ROCHEFORT" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0503.png" alt="  Un Cimeterre enrichy de pierreries "><span class="devise"> SPLENDOR, ET AUXILIUM </span><span class="nom"> MARQVIS DE ROCHEFORT </span></span><span class="face verso"><span class="nom"> MARQVIS DE ROCHEFORT </span><span class="para">
+                     Comme cette Epée est recommandable
+                     par l’éclat et le prix des pierreries qui l’embelissent,
+                     et au même temps par le secours
+                     que l’on en peut tirer; ce Chevalier prétend 
+                     de même, que sa valeur doit tout ensemble 
+                     luy acquerir la gloire, et servir à la
+                     défense de son Prince, et de son Païs.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQUIS DE PLUMARTIN" data-quadrille="q-americains" data-personnage="p-MARQUIS DE PLUMARTIN" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0504.png" alt="  Un Diamant brute que l’on polit "><span class="devise"> CHI MI TOCCA SI STRUGGE, E MILLUSTRA </span><span class="nom"> MARQUIS DE PLUMARTIN </span></span><span class="face verso"><span class="nom"> MARQUIS DE PLUMARTIN </span><span class="para">
+                     Il se fait un espece de combat entre le
+                     Diamant et l’Aimant qu’on employe pour
+                     le polir, où tout le dommage est du costé
+                     de l’Aimant qui se consume, et l’avantage
+                     du costé du Diamant, qui en reçoit un
+                     nouvel éclat; Ce Chevalier prétend qu’il en
+                     arrivera de même dans tous les combats
+                     qu’il entreprendra, où ses ennemis se trouveront 
+                     toûjours mal de l’avoir attaqué, et
+                     luy au contraire, en sortira à son avantage,
+                     et plus brillant de gloire qu’auparavant.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQUIS DE LA CHASTRE" data-quadrille="q-americains" data-personnage="p-MARQUIS DE LA CHASTRE" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0505.png" alt=" Un Cœur sur un feu de bois de Myrthe et d’Encens "><span class="devise"> GLORIAE ET AMORI </span><span class="nom"> MARQUIS DE LA CHASTRE </span></span><span class="face verso"><span class="nom"> MARQUIS DE LA CHASTRE </span><span class="para">
+                     Ce Chevalier veut donner à entendre
+                     que son coeur est sensible à la gloire et à l’amour 
+                     representez par l’Encens, et le Myrthe,
+                     qui en sont les symboles.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQUIS DE RAGNY" data-quadrille="q-americains" data-personnage="p-MARQUIS DE RAGNY" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0506.png" alt=" Un Oranger chargé de feüilles et de fruits "><span class="devise"> POSITA FERITATE NITESCIT </span><span class="nom"> MARQUIS DE RAGNY </span></span><span class="face verso"><span class="nom"> MARQUIS DE RAGNY </span><span class="para">
+                     Un Oranger que l’on a enté sur un Sauvageon
+                     non seulement apporte de plus
+                     beaux fruits, et de plus belles fleurs : mais
+                     pousse aussi de plus beaux feüillages qu’auparavant.
+                     Ce Chevalier assure qu’il en est
+                     de même, qu’il tempere les exercices farouches 
+                     de la guerre, par les jeux et les divertissemens 
+                     de la Paix.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQUIS DE MIREPOIX" data-quadrille="q-americains" data-personnage="p-MARQUIS DE MIREPOIX" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0507.png" alt="  Un Laurier et un Cyprez "><span class="devise"> VINCERE AUT MORI </span><span class="nom"> MARQUIS DE MIREPOIX </span></span><span class="face verso"><span class="nom"> MARQUIS DE MIREPOIX </span><span class="para">
+                     Ces deux Arbres dont la signification 
+                     est assez connüe, ont été choisis par ce Chevalier,
+                     pour faire entendre qu’il ne trouve
+                     point de party à prendre entre celuy de la
+                     Victoire, et celuy de la Mort.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQUIS DE VERVINS" data-quadrille="q-americains" data-personnage="p-MARQUIS DE VERVINS" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0508.png" alt=" Un Autel avec un Encensoir dessus "><span class="devise"> ET COLIT, ET PASCIT </span><span class="nom"> MARQUIS DE VERVINS </span></span><span class="face verso"><span class="nom"> MARQUIS DE VERVINS </span><span class="para">
+                     L'Encens étoit consideré non seulement
+                     comme une marque du culte que l’on rendoit 
+                     aux Dieux, mais en quelque façon
+                     comme une nourriture dont ils se repaissoient,
+                     et c’est pour cette raison que ce Chevalier 
+                     l’employe dans sa Devise, pour témoigner 
+                     qu’il ne croit vivre que pour honorer 
+                     son Prince, et qu’en qualité de premier 
+                     Maître d’Hôtel du Roy, il se donne
+                     tout entier aux soins de la table de S. M.
+                     </span></span></button></article>
+         <article class="carte" id="p-MARQUIS DE BEUVRON" data-quadrille="q-americains" data-personnage="p-MARQUIS DE BEUVRON" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0509.png" alt=" Une Giroüete agitée du vent "><span class="devise"> Une Giroüete agitée du vent </span><span class="nom"> MARQUIS DE BEUVRON </span></span><span class="face verso"><span class="nom"> MARQUIS DE BEUVRON </span><span class="para">
+                     Quelque soit l'inconstance de la giroüete, 
+                     elle ne change point toutesfois de situation,
+                     à moins que le vent qu’elle est forcée
+                     d’imiter, n’en ait auparavant changé; Le
+                     Chevalier proteste qu’aussi ne changera-il
+                     jamais, à moins que sa Maîtresse ne change
+                     la premiere.
+                     </span></span></button></article>
+         <article class="carte" id="p-REMPLACER" data-quadrille="q-americains" data-personnage="p-REMPLACER" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0510.png" alt=" Une Aigle qui vole vers le Soleil "><span class="devise"> GOZEN LA VISTA, QUEMEN LAS PLUMAS </span><span class="nom"> REMPLACER </span></span><span class="face verso"><span class="nom"> REMPLACER </span><span class="para">
+                     Le plaisir que l’Aigle trouve à regarder
+                     le Soleil, le charme tellement qu’il ne s’apperçoit 
+                     pas que le feu se prend à ses plumes,
+                     ce qui represente bien l’ardeur d’un cœur
+                     passioné qui veut bien étre embrasé des
+                     beaux yeux qu’il aime, pourveu qu’il ait le
+                     plaifir de lesvor.
+                     </span></span></button></article>
+         <article class="carte" id="p-DUC DE BRISSAC" data-quadrille="q-americains" data-personnage="p-DUC DE BRISSAC" style="--couleur:#5e4b8b"><button type="button" class="carte-inner" aria-pressed="false"><span class="face recto"><span class="quadrille">Américains</span><img src="img/0511.png" alt=" Un petit Palmier parmy plusieurs autres grands "><span class="devise"> AEQUABO SI FAVEAS </span><span class="nom"> DUC DE BRISSAC </span></span><span class="face verso"><span class="nom"> DUC DE BRISSAC </span><span class="para">
+                     Si les regards du Soleil font l’accroissement 
+                     des Arbres, ceux du Prince ne contribüent 
+                     pas moins à élever le courage et
+                     la fortune de ceux qui le servent, et c’est
+                     par cette consideration que ce Chevalier
+                     promet d’égaler dans peu les grandes
+                     actions de tous ces Ancestres, s’il est regardé 
+                     favorablement de sa Majesté.
+                     </span></span></button></article>
+      </main><script src="script.js"></script></body>
+</html>

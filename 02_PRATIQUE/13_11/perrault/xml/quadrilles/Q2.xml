@@ -73,140 +73,232 @@
                 </div>
             
             
+            <div type="personnage" xml:id="p-villeroy">
+                            
+                    <head> MARQUIS DE VILLEROY </head>
+                    
+                    <figure xml:id="img-villeroy">
+                        <graphic url="img/0202.png"/>
+                        <figDesc> Un Dard entouré de Laurier </figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la"> NEC SINE GLORIA CADET </q>
+                    <p type="description">
+                        De même que ce Dard est toûjours environné
+                        de Laurier, quelque part qu’on le lance,
+                        soit qu’il frappe au but, soit même qu’il
+                        tombe à terre: Ainsi ce Chevalier a voulu
+                        faire entendre que quelque expedition
+                        qu’il entreprenne, elle sera toûjours accompagnée
+                        de la gloire dont le Laurier est
+                        le symbole, soit qu’elle luy reüssisse avantageusement,
+                        soit méme qu’il y perde la vie.
+                    </p>
+                </div>
             
             
+            <div type="personnage" xml:id="p-plessis">
+
+                    <head>COMTE DU PLESSIS</head>
+            
+                    <figure xml:id="img-plessis">
+                        <graphic url="img/0203.png"/>
+                        <fidDesc>Une flâme</fidDesc>
+                    </figure>
+            
+                    <q type="devise" xml:lang="la">AB OBICE MAJOR</q>
+                    <p type="description">
+                        L’activité et la violence du feu s’augmentent
+                        par la resistance qu’il rencontre, et
+                        plus il est resserré, plus il éclate; Il en est de
+                        même d’un grand courage, qui sent redoubler
+                        son ardeur, soit dans la guerre, soit
+                        dans l’amour, par les obstacles et les difficultez
+                        qui se presentent.
+                    </p>
+            </div>
+            
+            
+            <div type="personnage" xml:id="p-bellefond">
+
+                    <head>MARQUIS DE BELLEFOND</head>
+
+                    <figure xml:id="img-bellefond">
+                        <graphic url="img/0204.png"/>
+                        <fidDesc>Une Abeille qui vole sur un Parterre</fidDesc>
+                    </figure>
+
+                    <q type="devise" xml:lang="la">UNA SIN MAS</q>
+                    <p type="description">
+                        Comme une Abeille, aprés avoir consideré
+                        toutes les fleurs d’un Parterre, enfin
+                        s’attache à une seule; De même ce Chevalier
+                        fait entendre par cette Devise, qu’encore
+                        qu’il ait beaucoup de civilité, et d’inclination 
+                        pour toutes les Dames; Il y en a
+                        une neantmoins qui a toutes ses affections,
+                        et à laquelle son cœur est particulierement
+                        attaché.
+                    </p>
+            </div>
+            
+            
+            <div type="personnage" xml:id="p-rohan">
+
+
+                    <head>CHEVALIER DE ROHAN</head>
+                    <figure xml:id="img-rohan">
+                        <graphic url="img/0205.png"/>
+                        <figDesc>Des Lauriers sur des charbons ardans</figDesc>
+                    </figure>
+                            
+                    <q type="devise" xml:lang="la">ARDER Y CALLAR ?</q>
+                    <p type="description">
+                        Ce feu peut representer ou celuy de la
+                        gloire ou celuy de l’amour, mais de quelque
+                        sorte qu’on l’interprete, ce Chevalier declare
+                        qu’il luy est aussi impossible d’en brûler
+                        sans faire du bruit, soit en faisant parler
+                        de luy par ses belles actions, soit en parlant
+                        de son ardeur à celle qui en est la cause, qu’il
+                        est mal aisé que des Lauriers se laissent consumer
+                        par le feu qui les brûle sans faire
+                        beaucoup de bruit et beaucoup d’éclat.
+                    </p>
+            </div>
+
+
+            <div type="personnage" xml:id="p-lislebonne">
+
+                    <head>COMTE DE L’ISLEBONNE</head>
+                    <figure xml:id="img-lislebonne">
+                        <graphic url="img/0206.png"/>
+                        <figDesc>Un flambeau en plein jour</figDesc>
+                    </figure>
+
+                    <q type="devise" xml:lang="la">NOLLEM CESSISSE MINORI</q>
+                    <p type="description">
+                        Comme il n’y a que la seule lumiere du
+                        Soleil qui soit capable d’effacer celle d’un
+                        flambleau qui éclate durant la nuit quelque
+                        autre Astre qui brille dans le Ciel. Ce
+                        Chevalier prétend de même que la gloire
+                        de sa Majesté efface à la verité la sienne:
+                        mais qu’il se sent enflamé d’un si grand desir
+                        d’en acquerir, qu’il ne voudroit pas le
+                        ceder à pas un autre.   
+                    </p>
+            </div>
+            
+            
+            
+            <div type="personnage" xml:id="p-marsillac">
+                            
+                    <head>PRINCE DE MARSILLAC</head>
+                    
+                    <figure xml:id="img-marsillac">
+                        <graphic url="img/0207.png"/>
+                        <figDesc>Une fournaise jettant une grande flâme</figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la">PIU NE COPRE, CHE NE SCOPRE</q>
+                    <p type="description">
+                        Quelque grande que soit l’ardeur des
+                        vrays Amans, leur discretion doit étre encore
+                        plus grande, et cacher plus de la
+                        moitié de leur passion. C’est ce qu’a voulu
+                        faire entendre ce Chevalier par cette
+                        fournaise, dont l’on ne peut empécher qu’il
+                        ne sorte quelque flame: mais qui en renferme
+                        bien plus qu’elle n’en laisse paroître.   
+                    </p>
+                </div>
             
 
-            MARQUIS DE VILLEROY
-            Un Dard entouré de Laurier
-            NEC SINE GLORIA CADET
-
-            De même que ce Dard est toûjours environné
-            de Laurier, quelque part qu’on le lance,
-            soit qu’il frappe au but, soit même qu’il
-            tombe à terre: Ainsi ce Chevalier a voulu
-            faire entendre que quelque expedition
-            qu’il entreprenne, elle sera toûjours accompagnée
-            de la gloire dont le Laurier est
-            le symbole, soit qu’elle luy reüssisse avantageusement,
-            soit méme qu’il y perde la vie.
+            <div type="personnage" xml:id="p-foix">
+                            
+                    <head>COMTE DE FOIX</head>
+                    
+                    <figure xml:id="img-foix">
+                        <graphic url="img/0208.png"/>
+                        <figDesc>Un Ecu plein</figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la">COSI UVOL AMORE</q>
+                    <p type="description">
+                        La plus-part des Amans témoignent
+                        leur passion dans leurs Devises, et publient
+                        bien souvent ce qu’ils devroient cacher:
+                        Mais ce Chevalier aimant à faire voir son
+                        amour par sa discretion, dit que ce même
+                        amour luy défend d’en faire rien paroître.   
+                    </p>
+                </div>
             
             
-            COMTE DU PLESSIS
-            Une flâme
-            AB OBICE MAJOR
-            L’activité et la violence du feu s’augmentent
-            par la resistance qu’il rencontre, et
-            plus il est resserré, plus il éclate; Il en est de
-            même d’un grand courage, qui sent redoubler
-            son ardeur, soit dans la guerre, soit
-            dans l’amour, par les obstacles et les difficultez
-            qui se presentent.
+            <div type="personnage" xml:id="p-clere">
+                            
+                    <head>COMTE DE CLERE</head>
+                    
+                    <figure xml:id="img-clere">
+                        <graphic url="img/0209.png"/>
+                        <figDesc>Une grande flâme</figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la">FOELICITER AUDAX</q>
+                    <p type="description">
+                        La flâme s'éleve sans cesse, et par une
+                        heureuse hardiesse prend toûjours le dessus;
+                        A son imitation ce Chevalier espere
+                        avoir toûjours avantage et sur ses rivaux
+                        et sur ses ennemis.
+                    </p>
+                </div>
             
             
-            
-            MARQUIS DE BELLEFOND
-            Une Abeille qui vole sur un Parterre
-            UNA SIN MAS
-            Comme une Abeille, aprés avoir consideré
-            toutes les fleurs d’un Parterre, enfin
-            s’attache à une seule; De même ce Chevalier
-            fait entendre par cette Devise, qu’encore
-            qu’il ait beaucoup de civilité, et d’inclination 
-            pour toutes les Dames; Il y en a
-            une neantmoins qui a toutes ses affections,
-            et à laquelle son cœur est particulierement
-            attaché.
-            
-            
-            
-            CHEVALIER DE ROHAN
-            Des Lauriers sur des charbons ardans
-            ARDER Y CALLAR ?
-            Ce feu peut representer ou celuy de la
-            gloire ou celuy de l’amour, mais de quelque
-            sorte qu’on l’interprete, ce Chevalier declare
-            qu’il luy est aussi impossible d’en brûler
-            sans faire du bruit, soit en faisant parler
-            de luy par ses belles actions, soit en parlant
-            de son ardeur à celle qui en est la cause, qu’il
-            est mal aisé que des Lauriers se laissent consumer
-            par le feu qui les brûle sans faire
-            beaucoup de bruit et beaucoup d’éclat.
-
-
-            COMTE DE L’ISLEBONNE
-            Un flambeau en plein jour
-            NOLLEM CESSISSE MINORI
-            Comme il n’y a que la seule lumiere du
-            Soleil qui soit capable d’effacer celle d’un
-            flambleau qui éclate durant la nuit quelque
-            autre Astre qui brille dans le Ciel. Ce
-            Chevalier prétend de même que la gloire
-            de sa Majesté efface à la verité la sienne:
-            mais qu’il se sent enflamé d’un si grand desir
-            d’en acquerir, qu’il ne voudroit pas le
-            ceder à pas un autre.
+            <div type="personnage" xml:id="p-vaillac">
+                            
+                    <head>COMTE DE VAILLAC</head>
+                    
+                    <figure xml:id="img-vaillac">
+                        <graphic url="img/0210.png"/>
+                        <figDesc>Une grande flâme</figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la">NE FREN NE TEMPO</q>
+                    <p type="description">
+                        Comme la flâme surmonte tous les obstacles 
+                        qu’elle rencontre, et qu’elle s’augmente 
+                        avec le temps au lieu de diminuer
+                        tant qu’elle trouve de l’aliment. Ainsi
+                        l’ardeur d’un grand courage se redouble
+                        par les difficultez, et par le temps quand il
+                        luy fournit de nouvelles occasions de se signaler.
+                    </p>
+                </div>
             
             
-            
-            PRINCE DE MARSILLAC
-            Une fournaise jettant une grande flâme
-            PIU NE COPRE, CHE NE SCOPRE
-            Quelque grande que soit l’ardeur des
-            vrays Amans, leur discretion doit étre encore
-            plus grande, et cacher plus de la
-            moitié de leur passion. C’est ce qu’a voulu
-            faire entendre ce Chevalier par cette
-            fournaise, dont l’on ne peut empécher qu’il
-            ne sorte quelque flame: mais qui en renferme
-            bien plus qu’elle n’en laisse paroître.
-            
-
-            COMTE DE FOIX
-            Un Ecu plein
-            COSI UVOL AMORE
-            La plus-part des Amans témoignent
-            leur passion dans leurs Devises, et publient
-            bien souvent ce qu’ils devroient cacher:
-            Mais ce Chevalier aimant à faire voir son
-            amour par sa discretion, dit que ce même
-            amour luy défend d’en faire rien paroître.
-            
-            
-            COMTE DE CLERE
-            Une grande flâme
-            FOELICITER AUDAX
-            La flâme s'éleve sans cesse, et par une
-            heureuse hardiesse prend toûjours le dessus;
-            A son imitation ce Chevalier espere
-            avoir toûjours avantage et sur ses rivaux
-            et sur ses ennemis.
-            
-            
-            COMTE DE VAILLAC
-            Une grande flâme
-            NE FREN NE TEMPO
-            Comme la flâme surmonte tous les obstacles 
-            qu’elle rencontre, et qu’elle s’augmente 
-            avec le temps au lieu de diminuer
-            tant qu’elle trouve de l’aliment. Ainsi
-            l’ardeur d’un grand courage se redouble
-            par les difficultez, et par le temps quand il
-            luy fournit de nouvelles occasions de se signaler.
-            
-            
-            COMTE D’ILLIERS
-            Une fusée volante
-            POCO DURI PUR CHE M'INALZI
-            Une fusée volante ne dure pas longtemps, 
-            mais elle s’éleve toûjours et avec
-            éclat tant qu’elle dure. Ce Chevalier qui
-            la prend pour sa Devise, souhaite de luy
-            ressembler, consentant que sa vie soit de
-            peu de durée, pourveu qu’elle soit éclatante,
-            et qu’elle aille toûjours s’élevant jusqu'au 
-            comble de la gloire.
+            <div type="personnage" xml:id="p-dilliers">
+                            
+                    <head>COMTE D’ILLIERS</head>
+                    
+                    <figure xml:id="img-dilliers">
+                        <graphic url="img/0211.png"/>
+                        <figDesc>Une fusée volante</figDesc>
+                    </figure>
+                    
+                    <q type="devise" xml:lang="la">POCO DURI PUR CHE M'INALZI</q>
+                    <p type="description">
+                        Une fusée volante ne dure pas longtemps, 
+                        mais elle s’éleve toûjours et avec
+                        éclat tant qu’elle dure. Ce Chevalier qui
+                        la prend pour sa Devise, souhaite de luy
+                        ressembler, consentant que sa vie soit de
+                        peu de durée, pourveu qu’elle soit éclatante,
+                        et qu’elle aille toûjours s’élevant jusqu'au 
+                        comble de la gloire.
+                    </p>
+                </div>
             
             </div>
         </body>
